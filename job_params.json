@@ -1,0 +1,9 @@
+{
+  "bulk_system": "IrO2",
+  "facet": "100",
+  "site": "dopant_site",
+  "dopant": "Cr",
+  "coverage_type": "o_covered",
+  "job_type": "ORR_adsorption",
+  "adsorbate": "ooh"
+  }

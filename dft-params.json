@@ -1,0 +1,35 @@
+{
+  "kpts": [
+    6,
+    6,
+    6
+  ],
+  "parflags": null,
+  "xc": "RPBE",
+  "nbands": -50,
+  "convergence": {
+    "nmix": 20,
+    "diag": "david",
+    "energy": 1e-05,
+    "mixing_mode": "local-TF", 
+    "maxsteps": 500,
+    "mixing": 0.2
+  },
+  "dw": 6000,
+  "outdir": "calcdir",
+  "pw": 600,
+  "noncollinear": false,
+  "dipole": {
+    "status": false
+  },
+  "beefensemble": false,
+  "mode": "vc-relax",
+  "output": {
+    "removewf": true,
+    "avoidio": true,
+    "removesave": true,
+    "wf_collect": false
+  },
+  "sigma": 0.1,
+  "spinpol": false
+}

@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
-"""IrOx Project.
+"""Book keeping script for supported-graphene project.
+
+Essentially just a list of paths to your jobs.
+
 
 Author: Raul A. Flores
 """
