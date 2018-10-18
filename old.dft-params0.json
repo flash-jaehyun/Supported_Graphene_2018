@@ -11,7 +11,7 @@
     "nmix": 20,
     "diag": "david",
     "energy": 1e-05,
-    "mixing_mode": "local-TF",
+    "mixing_mode": "local-TF", 
     "maxsteps": 500,
     "mixing": 0.2
   },
@@ -23,6 +23,7 @@
     "status": false
   },
   "beefensemble": false,
+  "mode": "vc-relax",
   "output": {
     "removewf": true,
     "avoidio": true,
