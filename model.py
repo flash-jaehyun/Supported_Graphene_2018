@@ -15,7 +15,7 @@ from ase_modules.ase_methods import (
 #__|
 
 #| - SCRIPT INPUTS ************************************************************
-mode = "sp"  # opt (ionic optimization), easy_opt, or sp (single-point calc)
+mode = "opt"  # opt (ionic optimization), easy_opt, or sp (single-point calc)
 fmax = 0.01  # max force convergence for optimizer
 
 run_opt             = True
