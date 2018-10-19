@@ -1,26 +1,26 @@
 {
   "kpts": [
-    "8",
-    "8",
+    "3",
+    "3",
     "1"
   ],
   "parflags": null,
   "xc": "BEEF-vdW",
-  "nbands": -50,
+  "nbands": -20,
   "convergence": {
     "nmix": 20,
     "diag": "david",
-    "energy": 2e-06,
+    "energy": 2e-04,
     "mixing_mode": "local-TF",
     "maxsteps": 500,
     "mixing": 0.2
   },
-  "dw": 8000.0,
+  "dw": 4000.0,
   "outdir": "calcdir",
-  "pw": 800,
+  "pw": 400,
   "noncollinear": false,
   "dipole": {
-    "status": true
+    "status": false
   },
   "beefensemble": true,
   "printensemble": true,
@@ -28,5 +28,5 @@
     "removesave": true
   },
   "sigma": 0.005,
-  "spinpol": true
+  "spinpol": false
 }
