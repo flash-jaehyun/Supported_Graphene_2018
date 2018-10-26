@@ -1,0 +1,8 @@
+{
+  "adsorbate": "ooh",
+  "graphene_layers": 2,
+  "stacking": "AB",
+  "support_elem": "fe",
+  "support_bulk_str": "fcc",
+  "support_facet": "111"
+  }
