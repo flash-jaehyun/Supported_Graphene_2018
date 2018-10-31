@@ -22,22 +22,18 @@ pd.options.mode.chained_assignment = None
 #__|
 
 #| - Script Parameters
-# /home/users/kkrempl/01_Fe_graphene_system/
-# 01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/o/_1
+# /home/users/kkrempl/01_Fe_graphene_system
+# /01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking
 
 rt = "/home/users/kkrempl/01_Fe_graphene_system"
-
-# surf_e_rt = "01_surface_calcs"
-# surf_rt = "02_surface_coverage"
-# ads_rt = "03_OER_Calc"
-# surf_cov_e_rt = "07_diff_coverages_term"
-# # 07_diff_coverages_term/IrO2/100/OH_covered/_1
 
 dir_list = [
 
     #| - IrO2 *****************************************************************
     join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/o"),
     join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/bare"),
+    join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/oh"),
+    join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/ooh"),
 
     #__| **********************************************************************
 
