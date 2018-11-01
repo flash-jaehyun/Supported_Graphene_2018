@@ -22,19 +22,18 @@ pd.options.mode.chained_assignment = None
 #__|
 
 #| - Script Parameters
-# /home/users/kkrempl/01_Fe_graphene_system
-# /01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking
-
-rt = "/home/users/kkrempl/01_Fe_graphene_system"
+# Old path from $HOME dir
+# rt = "/home/users/kkrempl/01_Fe_graphene_system"
+rt = "/scratch/users/kkrempl/01_Supported_Graphene_2018"
+fcc_fe_111 = "01_Fe_graphene_system/01_FCC_Fe_111"
 
 dir_list = [
 
     #| - IrO2 *****************************************************************
-    join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/o"),
-    join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/bare"),
-    join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/oh"),
-    join(rt, "01_FCC_Fe_111/02_2x_Graphen/02_AB_stacking/ooh"),
-
+    join(rt, fcc_fe_111, "02_2x_Graphen/02_AB_stacking/o"),
+    join(rt, fcc_fe_111, "02_2x_Graphen/02_AB_stacking/bare"),
+    join(rt, fcc_fe_111, "02_2x_Graphen/02_AB_stacking/oh"),
+    join(rt, fcc_fe_111, "02_2x_Graphen/02_AB_stacking/ooh"),
     #__| **********************************************************************
 
     ]
@@ -47,7 +46,7 @@ dft_inst = DFT_Methods(
         "elec_energy",
         "init_atoms",
         "atoms_object",
-        "incar",
+        # "incar",
         # "outcar"
         ],
     DFT_code="VASP",
