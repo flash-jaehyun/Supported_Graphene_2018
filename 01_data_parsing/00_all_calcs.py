@@ -46,10 +46,11 @@ dft_inst = DFT_Methods(
         "elec_energy",
         "init_atoms",
         "atoms_object",
+        "dft_params",
         # "incar",
         # "outcar"
         ],
-    DFT_code="VASP",
+    DFT_code="QE",
     )
 
 Jobs = DFT_Jobs_Analysis(
