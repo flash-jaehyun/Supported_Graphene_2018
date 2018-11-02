@@ -87,10 +87,10 @@ for Job_i in Jobs.Job_list:
 #__|
 
 #| - __old__
-Jobs.add_data_column(
-    dft_inst.dft_params,
-    column_name="new_column",
-    revision="auto",
-    allow_failure=False,
-    )
+# Jobs.add_data_column(
+#     dft_inst.dft_params,
+#     column_name="new_column",
+#     revision="auto",
+#     allow_failure=False,
+#     )
 #__|
