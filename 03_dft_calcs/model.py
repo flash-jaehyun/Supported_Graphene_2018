@@ -42,7 +42,8 @@ calc, espresso_params = set_QE_calc_params(
     atoms=None, params={},
     load_defaults=True, init_inst=False)
 
-set_init_mag_moms(atoms, espresso_params=espresso_params, read_from_file=True)
+set_init_mag_moms(atoms, espresso_params=espresso_params,
+    read_from_file=True, inc_val_magmoms=False)
 #__|
 
 #| - Protocols
