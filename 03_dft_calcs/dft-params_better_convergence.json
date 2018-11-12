@@ -1,0 +1,32 @@
+{
+  "kpts": [
+    "3",
+    "3",
+    "1"
+  ],
+  "parflags": null,
+  "xc": "BEEF-vdW",
+  "nbands": -20,
+  "convergence": {
+    "nmix": 10,
+    "diag": "david",
+    "energy": 2e-04,
+    "mixing_mode": "plain",
+    "maxsteps": 700,
+    "mixing": 0.1
+  },
+  "dw": 4000.0,
+  "outdir": "calcdir",
+  "pw": 400,
+  "noncollinear": false,
+  "dipole": {
+    "status": false
+  },
+  "beefensemble": true,
+  "printensemble": true,
+  "output": {
+    "removesave": true
+  },
+  "sigma": 0.005,
+  "spinpol": true
+}
