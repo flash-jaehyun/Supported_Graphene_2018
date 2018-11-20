@@ -1,4 +1,4 @@
-tmp = {
+dft_params = {
   "kpts": [
     "3",
     "3",
