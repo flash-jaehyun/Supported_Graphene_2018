@@ -81,12 +81,14 @@ mat2d_slab = slab_from_file([0,0,1], graphene_filename)
 substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(substrate_slab, mat2d_slab, max_area = max_area, max_mismatch = max_mismatch, max_angle_diff = max_angle_diff, r1r2_tol = r1r2_tol)
 
 # merge substrate and mat2d in all possible
-#ways
-hetero_interfaces = generate_all_configs(mat2d_slab_aligned, substrate_slab_aligned, nlayers_2d, nlayers_substrate, separation)
+# ways
+# hetero_interfaces = generate_all_configs(mat2d_slab_aligned, substrate_slab_aligned, nlayers_2d, nlayers_substrate, separation)
 
-hetero_interfaces_ase = AseAtomsAdaptor.get_atoms(hetero_interfaces)
+graphene_ase = AseAtomsAdaptor.get_atoms(mat2d_slab_aligned)
+substrate_ase = AseAtomsAdaptor.get_atoms(substrate_slab_aligned)
 
-write('heterostructure.traj', hetero_interfaces_ase)
+write('graphene_algined.traj', graphene_ase)
+write('substrate_algined.traj', substrate_ase)
 
 #__|
 
