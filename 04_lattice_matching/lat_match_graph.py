@@ -44,12 +44,20 @@ Author(s): Kevin Krempl, Raul Flores
 """
 
 #| - Import Modules
+
+from mpinterfaces.transformations import (
+    Structure,
+    get_aligned_lattices,
+    generate_all_configs,
+    )
+
+from mpinterfaces.utils import slab_from_file
 from mpinterfaces.interface import Interface
-from mpinterfaces.transformations import *
-from mpinterfaces.utils import *
+
+# from mpinterfaces.transformations import *
+# from mpinterfaces.utils import *
 
 from pymatgen.io.ase import AseAtomsAdaptor
-
 from ase.io import write
 
 import pickle
@@ -64,7 +72,7 @@ import os
 bulk_filename = 'Cobulk.cif'
 graphene_filename = 'graph.cif'
 
-surface_cut = [0,0,1]
+surface_cut = [0, 0, 1]
 
 separation = 3
 nlayers_2d = 1
@@ -95,7 +103,7 @@ substrate_slab = Interface(
     from_ase=True,
     )
 
-mat2d_slab = slab_from_file([0,0,1], graphene_filename)
+mat2d_slab = slab_from_file([0, 0, 1], graphene_filename)
 
 # get aligned lattices
 substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
@@ -120,16 +128,21 @@ hetero_interfaces = generate_all_configs(
     separation,
     )
 
-#with open('hetero_interfaces', 'wb') as fle:
-    #pickle.dump(hetero_interfaces, fle)
+# with open('hetero_interfaces', 'wb') as fle:
+#     pickle.dump(hetero_interfaces, fle)
 
 #| - Generate all heterostructures in new dir
-
 os.mkdir('01_heterostructures')
-
 for i, iface in enumerate(hetero_interfaces):
     atoms = AseAtomsAdaptor.get_atoms(iface)
-    write('./01_heterostructures/structure'+str(i+1)+'.traj', atoms)
+    write(
+        os.path.join(
+            '.',
+            '01_heterostructures'
+            'structure_' + str(i + 1).zfill(2) + '.traj',
+            ),
+        atoms,
+        )
 #__|
 
 # hetero_interfaces.to(filename='heterostructure.POSCAR')
