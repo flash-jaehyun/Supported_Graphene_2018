@@ -36,7 +36,11 @@
 #SBATCH --ntasks-per-node=16
 #################
 #__|
-"""findes matching unit cells for graphene and a previously optimized bulk crystal
+"""Finds matching unit cells for graphene and a previously optimized bulk
+crystal.
+
+
+Author(s): Kevin Krempl, Raul Flores
 """
 
 #| - Import Modules
@@ -47,6 +51,8 @@ from mpinterfaces.utils import *
 from pymatgen.io.ase import AseAtomsAdaptor
 
 from ase.io import write
+
+import pickle
 #__|
 
 #| - Inputs
@@ -92,9 +98,7 @@ substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
     )
 
 substrate_slab_aligned.to(filename='Substrate_opt.POSCAR')
-mat2mat2d_slab_aligned.to(filename='Graphene_opt.POSCAR')
-
-
+mat2d_slab_aligned.to(filename='Graphene_opt.POSCAR')
 
 # merge substrate and mat2d in all possible
 # ways
@@ -105,6 +109,9 @@ hetero_interfaces = generate_all_configs(
     nlayers_substrate,
     separation,
     )
+
+with open("hetero_interfaces") as fle:
+    pickle.dump(hetero_interfaces, fle)
 
 hetero_interfaces.to(filename='heterostructure.POSCAR')
 #__|
