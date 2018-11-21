@@ -53,6 +53,8 @@ from pymatgen.io.ase import AseAtomsAdaptor
 from ase.io import write
 
 import pickle
+
+import os
 #__|
 
 #| - Inputs
@@ -121,13 +123,13 @@ hetero_interfaces = generate_all_configs(
 #with open('hetero_interfaces', 'wb') as fle:
     #pickle.dump(hetero_interfaces, fle)
 
-#| - Generate all poscars in new dir
+#| - Generate all heterostructures in new dir
 
-mkdir 01_heterostructures
+os.mkdir('01_heterostructures')
 
 for i, iface in enumerate(hetero_interfaces):
     atoms = AseAtomsAdaptor.get_atoms(iface)
-    write('./01_heterostructures/structure'+str(i)+'.traj', atoms)
+    write('./01_heterostructures/structure'+str(i+1)+'.traj', atoms)
 #__|
 
 # hetero_interfaces.to(filename='heterostructure.POSCAR')
