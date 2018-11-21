@@ -56,20 +56,28 @@ import pickle
 #__|
 
 #| - Inputs
-bulk_filename = 'Cobulk.POSCAR'
-graphene_filename = 'graph.POSCAR'
+# bulk_filename = 'Cobulk.POSCAR'
+# graphene_filename = 'graph.POSCAR'
+
+bulk_filename = 'Cobulk.cif'
+graphene_filename = 'graph.cif'
 
 surface_cut = [0,0,1]
 
 separation = 3
 nlayers_2d = 1
 nlayers_substrate = 3
-# Lattice matching algorithm parameters
-max_area = 1000
-max_mismatch = 5
-max_angle_diff = 1
-r1r2_tol = 0.01
 
+# Lattice matching algorithm parameters
+# max_area = 1000
+# max_mismatch = 5
+# max_angle_diff = 1
+# r1r2_tol = 0.01
+
+max_area = 300
+max_mismatch = 10
+max_angle_diff = 3
+r1r2_tol = 0.5
 #__|
 
 #| - Generate heterstructures
@@ -113,7 +121,26 @@ hetero_interfaces = generate_all_configs(
 with open("hetero_interfaces") as fle:
     pickle.dump(hetero_interfaces, fle)
 
-hetero_interfaces.to(filename='heterostructure.POSCAR')
+#| - Generate all poscars
+for i, iface in enumerate(hetero_interfaces):
+    sd_flags = CalibrateSlab.set_sd_flags(
+        interface=iface,
+        n_layers=nlayers_2d + nlayers_substrate,
+        top=True,
+        bottom=False,
+        )
+
+    poscar = Poscar(
+        iface,
+        selective_dynamics=sd_flags,
+        )
+
+    poscar.write_file(
+        filename='POSCAR_final_{}.vasp'.format(i),
+        )
+#__|
+
+# hetero_interfaces.to(filename='heterostructure.POSCAR')
 #__|
 
 #| - Main loop
