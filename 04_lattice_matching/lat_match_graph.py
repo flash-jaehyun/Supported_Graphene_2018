@@ -47,7 +47,6 @@ Author(s): Kevin Krempl, Raul Flores
 from mpinterfaces.interface import Interface
 from mpinterfaces.transformations import *
 from mpinterfaces.utils import *
-from mpinterfaces.calibrate import CalibrateSlab
 
 from pymatgen.io.ase import AseAtomsAdaptor
 
@@ -119,26 +118,16 @@ hetero_interfaces = generate_all_configs(
     separation,
     )
 
-with open('hetero_interfaces', 'wb') as fle:
-    pickle.dump(hetero_interfaces, fle)
+#with open('hetero_interfaces', 'wb') as fle:
+    #pickle.dump(hetero_interfaces, fle)
 
-#| - Generate all poscars
+#| - Generate all poscars in new dir
+
+mkdir 01_heterostructures
+
 for i, iface in enumerate(hetero_interfaces):
-    sd_flags = CalibrateSlab.set_sd_flags(
-        interface=iface,
-        n_layers=nlayers_2d + nlayers_substrate,
-        top=True,
-        bottom=False,
-        )
-
-    poscar = Poscar(
-        iface,
-        selective_dynamics=sd_flags,
-        )
-
-    poscar.write_file(
-        filename='POSCAR_final_{}.vasp'.format(i),
-        )
+    atoms = AseAtomsAdaptor.get_atoms(iface)
+    write('./01_heterostructures/structure'+str(i)+'.traj', atoms)
 #__|
 
 # hetero_interfaces.to(filename='heterostructure.POSCAR')
