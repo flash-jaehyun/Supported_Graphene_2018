@@ -47,10 +47,7 @@ from mpinterfaces.utils import *
 from pymatgen.io.ase import AseAtomsAdaptor
 
 from ase.io import write
-
-
 #__|
-
 
 #| - Inputs
 bulk_filename = 'Cobulk.POSCAR'
@@ -70,15 +67,29 @@ r1r2_tol = 0.01
 #__|
 
 #| - Generate heterstructures
-
 #impletment loop over a list of defined surface cuts
 
 substrate_bulk = Structure.from_file(bulk_filename)
-substrate_slab = Interface(substrate_bulk, hkl = surface_cut, min_thick = 10, min_vac = 25, primitive = False, from_ase = True)
+substrate_slab = Interface(
+    substrate_bulk,
+    hkl=surface_cut,
+    min_thick=10,
+    min_vac=25,
+    primitive=False,
+    from_ase=True,
+    )
+
 mat2d_slab = slab_from_file([0,0,1], graphene_filename)
 
 # get aligned lattices
-substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(substrate_slab, mat2d_slab, max_area = max_area, max_mismatch = max_mismatch, max_angle_diff = max_angle_diff, r1r2_tol = r1r2_tol)
+substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
+    substrate_slab,
+    mat2d_slab,
+    max_area=max_area,
+    max_mismatch=max_mismatch,
+    max_angle_diff=max_angle_diff,
+    r1r2_tol=r1r2_tol,
+    )
 
 # merge substrate and mat2d in all possible
 # ways
@@ -89,7 +100,8 @@ substrate_ase = AseAtomsAdaptor.get_atoms(substrate_slab_aligned)
 
 write('graphene_algined.traj', graphene_ase)
 write('substrate_algined.traj', substrate_ase)
-
 #__|
 
 #| - Main loop
+
+#__|
