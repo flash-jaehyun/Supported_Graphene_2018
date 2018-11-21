@@ -95,17 +95,9 @@ substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
 # ways
 hetero_interfaces = generate_all_configs(mat2d_slab_aligned, substrate_slab_aligned, nlayers_2d, nlayers_substrate, separation)
 
-
-<<<<<<< HEAD:04_lattice_matching/lat_match_graph.py
-write('graphene_algined.traj', graphene_ase)
-write('substrate_algined.traj', substrate_ase)
-=======
 substrate_slab_aligned.to(filename='Substrate_opt.POSCAR')
 mat2mat2d_slab_aligned.to(filename='Graphene_opt.POSCAR')
 hetero_interfaces.to(filename='heterostructure.POSCAR')
-
-
->>>>>>> fda672007bb2d30236585c6a3484acbe082443f6:lat_match_graph.py
 #__|
 
 #| - Main loop
