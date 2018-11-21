@@ -91,12 +91,21 @@ substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
     r1r2_tol=r1r2_tol,
     )
 
-# merge substrate and mat2d in all possible
-# ways
-hetero_interfaces = generate_all_configs(mat2d_slab_aligned, substrate_slab_aligned, nlayers_2d, nlayers_substrate, separation)
-
 substrate_slab_aligned.to(filename='Substrate_opt.POSCAR')
 mat2mat2d_slab_aligned.to(filename='Graphene_opt.POSCAR')
+
+
+
+# merge substrate and mat2d in all possible
+# ways
+hetero_interfaces = generate_all_configs(
+    mat2d_slab_aligned,
+    substrate_slab_aligned,
+    nlayers_2d,
+    nlayers_substrate,
+    separation,
+    )
+
 hetero_interfaces.to(filename='heterostructure.POSCAR')
 #__|
 
