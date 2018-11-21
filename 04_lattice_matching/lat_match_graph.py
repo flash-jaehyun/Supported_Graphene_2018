@@ -36,6 +36,7 @@
 #SBATCH --ntasks-per-node=16
 #################
 #__|
+
 """Finds matching unit cells for graphene and a previously optimized bulk
 crystal.
 
@@ -44,7 +45,6 @@ Author(s): Kevin Krempl, Raul Flores
 """
 
 #| - Import Modules
-
 from mpinterfaces.transformations import (
     Structure,
     get_aligned_lattices,
@@ -54,9 +54,6 @@ from mpinterfaces.transformations import (
 from mpinterfaces.utils import slab_from_file
 from mpinterfaces.interface import Interface
 
-# from mpinterfaces.transformations import *
-# from mpinterfaces.utils import *
-
 from pymatgen.io.ase import AseAtomsAdaptor
 from ase.io import write
 
@@ -65,10 +62,7 @@ import pickle
 import os
 #__|
 
-#| - Inputs
-# bulk_filename = 'Cobulk.POSCAR'
-# graphene_filename = 'graph.POSCAR'
-
+#| - Script Inputs
 bulk_filename = 'Cobulk.cif'
 graphene_filename = 'graph.cif'
 
@@ -88,7 +82,7 @@ max_area = 300
 max_mismatch = 10
 max_angle_diff = 3
 r1r2_tol = 0.5
-#__|
+#__|k
 
 #| - Generate heterstructures
 #impletment loop over a list of defined surface cuts
@@ -128,10 +122,12 @@ hetero_interfaces = generate_all_configs(
     separation,
     )
 
-# with open('hetero_interfaces', 'wb') as fle:
-#     pickle.dump(hetero_interfaces, fle)
+with open('hetero_interfaces', 'wb') as fle:
+    pickle.dump(hetero_interfaces, fle)
 
-#| - Generate all heterostructures in new dir
+#__|
+
+#| - Write all heterostructures to file
 os.mkdir('01_heterostructures')
 for i, iface in enumerate(hetero_interfaces):
     atoms = AseAtomsAdaptor.get_atoms(iface)
@@ -145,9 +141,10 @@ for i, iface in enumerate(hetero_interfaces):
         )
 #__|
 
-# hetero_interfaces.to(filename='heterostructure.POSCAR')
-#__|
 
-#| - Main loop
+
+
+#| - __old__
+# hetero_interfaces.to(filename='heterostructure.POSCAR')
 
 #__|
