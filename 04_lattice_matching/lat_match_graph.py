@@ -47,6 +47,7 @@ Author(s): Kevin Krempl, Raul Flores
 from mpinterfaces.interface import Interface
 from mpinterfaces.transformations import *
 from mpinterfaces.utils import *
+from mpinterfaces.calibrate import CalibrateSlab
 
 from pymatgen.io.ase import AseAtomsAdaptor
 
