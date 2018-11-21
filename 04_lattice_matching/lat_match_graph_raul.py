@@ -1,44 +1,10 @@
 #!/usr/bin/env python
-#| - SLURM HEADER
-#above line selects special python interpreter which knows all the paths
-#SBATCH -p iric,owners
-#################
-#set a job name
-#SBATCH --job-name=recon1
-#################
-#a file for job output, you can check job progress
-#SBATCH --output=myjob.out
-#################
-# a file for errors from the job
-#SBATCH --error=myjob.err
-#################
-#time you think you need; default is one hour
-#in minutes in this case
-#SBATCH --time=00:30:00
-#################
-#quality of service; think of it as job priority
-#SBATCH --qos=normal
-#################
-#number of nodes you are requesting
-#SBATCH --nodes=1
-#################
-#memory per node; default is 4000 MB per CPU
-#SBATCH --mem-per-cpu=4000
-#you could use --mem-per-cpu; they mean what we are calling cores
-#################
-#get emailed about job BEGIN, END, and FAIL
-#SBATCH --mail-type=FAIL
-#################
-#who to send email to; please change to your email
-#SBATCH  --mail-user=kkrempl@stanford.edu
-#################
-#task to run per node; each node has 16 cores
-#SBATCH --ntasks-per-node=16
-#################
-#__|
 
 """Finds matching unit cells for graphene and a previously optimized bulk
 crystal.
+
+Todo:
+    # Impletment loop over a list of defined surface cuts
 
 
 Author(s): Kevin Krempl, Raul Flores
@@ -73,11 +39,6 @@ nlayers_2d = 1
 nlayers_substrate = 3
 
 # Lattice matching algorithm parameters
-# max_area = 1000
-# max_mismatch = 5
-# max_angle_diff = 1
-# r1r2_tol = 0.01
-
 max_area = 300
 max_mismatch = 10
 max_angle_diff = 3
@@ -85,8 +46,6 @@ r1r2_tol = 0.5
 #__|
 
 #| - Generate heterstructures
-#impletment loop over a list of defined surface cuts
-
 substrate_bulk = Structure.from_file(bulk_filename)
 substrate_slab = Interface(
     substrate_bulk,
@@ -99,7 +58,7 @@ substrate_slab = Interface(
 
 mat2d_slab = slab_from_file([0, 0, 1], graphene_filename)
 
-print(20 * "*")
+print(60 * "*")
 print("get_aligned_lattices")
 # get aligned lattices
 substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
@@ -110,15 +69,20 @@ substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
     max_angle_diff=max_angle_diff,
     r1r2_tol=r1r2_tol,
     )
-print(20 * "*")
+print(60 * "*")
 print("")
 print("")
 
-substrate_slab_aligned.to(filename='Substrate_opt.POSCAR')
-mat2d_slab_aligned.to(filename='Graphene_opt.POSCAR')
+#| - Writing hetero_interfaces to pickle file
+with open('aligned_latt_materials.pickle', 'wb') as fle:
+    pickle.dump((substrate_slab_aligned, mat2d_slab_aligned), fle)
+#__|
+
+substrate_slab_aligned.to(filename='00_Substrate_opt.POSCAR')
+mat2d_slab_aligned.to(filename='00_Graphene_opt.POSCAR')
 
 # merge substrate and mat2d in all possible ways
-print(20 * "*")
+print(60 * "*")
 print("generate_all_configs")
 hetero_interfaces = generate_all_configs(
     mat2d_slab_aligned,
@@ -127,12 +91,12 @@ hetero_interfaces = generate_all_configs(
     nlayers_substrate,
     separation,
     )
-print(20 * "*")
+print(60 * "*")
 print("")
 print("")
 
 #| - Writing hetero_interfaces to pickle file
-with open('hetero_interfaces', 'wb') as fle:
+with open('hetero_interfaces.pickle', 'wb') as fle:
     pickle.dump(hetero_interfaces, fle)
 #__|
 
@@ -150,12 +114,4 @@ for i, iface in enumerate(hetero_interfaces):
             ),
         atoms,
         )
-#__|
-
-
-
-
-#| - __old__
-# hetero_interfaces.to(filename='heterostructure.POSCAR')
-
 #__|
