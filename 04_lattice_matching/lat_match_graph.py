@@ -56,11 +56,11 @@ graphene_filename = 'graph.POSCAR'
 surface_cut = [0,0,1]
 
 separation = 3
-nlayers_2d = 2
-nlayers_substrate = 2
+nlayers_2d = 1
+nlayers_substrate = 3
 # Lattice matching algorithm parameters
-max_area = 400
-max_mismatch = 4
+max_area = 1000
+max_mismatch = 5
 max_angle_diff = 1
 r1r2_tol = 0.01
 
@@ -93,13 +93,19 @@ substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
 
 # merge substrate and mat2d in all possible
 # ways
-# hetero_interfaces = generate_all_configs(mat2d_slab_aligned, substrate_slab_aligned, nlayers_2d, nlayers_substrate, separation)
+hetero_interfaces = generate_all_configs(mat2d_slab_aligned, substrate_slab_aligned, nlayers_2d, nlayers_substrate, separation)
 
-graphene_ase = AseAtomsAdaptor.get_atoms(mat2d_slab_aligned)
-substrate_ase = AseAtomsAdaptor.get_atoms(substrate_slab_aligned)
 
+<<<<<<< HEAD:04_lattice_matching/lat_match_graph.py
 write('graphene_algined.traj', graphene_ase)
 write('substrate_algined.traj', substrate_ase)
+=======
+substrate_slab_aligned.to(filename='Substrate_opt.POSCAR')
+mat2mat2d_slab_aligned.to(filename='Graphene_opt.POSCAR')
+hetero_interfaces.to(filename='heterostructure.POSCAR')
+
+
+>>>>>>> fda672007bb2d30236585c6a3484acbe082443f6:lat_match_graph.py
 #__|
 
 #| - Main loop
