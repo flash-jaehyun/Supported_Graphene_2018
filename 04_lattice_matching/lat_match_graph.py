@@ -118,7 +118,7 @@ hetero_interfaces = generate_all_configs(
     separation,
     )
 
-with open("hetero_interfaces") as fle:
+with open('hetero_interfaces', 'wb') as fle:
     pickle.dump(hetero_interfaces, fle)
 
 #| - Generate all poscars
