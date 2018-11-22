@@ -8,6 +8,8 @@ Todo:
 Author(s): Kevin Krempl, Raul Flores
 """
 
+
+
 #| - Import Modules
 from mpinterfaces.transformations import (
     Structure,
@@ -27,6 +29,8 @@ import os
 #__|
 
 #| - Script Inputs
+strain_sys = "support"  # 'support' or 'overlayer'
+
 bulk_filename = 'Cobulk.cif'
 graphene_filename = 'graph.cif'
 
