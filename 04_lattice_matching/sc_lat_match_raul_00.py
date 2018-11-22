@@ -12,6 +12,9 @@ Author(s): Kevin Krempl, Raul Flores
 """
 
 #| - Import Modules
+import pickle
+import os
+
 from mpinterfaces.transformations import (
     Structure,
     get_aligned_lattices,
@@ -22,16 +25,13 @@ from mpinterfaces.utils import slab_from_file
 from mpinterfaces.interface import Interface
 
 from pymatgen.io.ase import AseAtomsAdaptor
-from ase.io import write
 
-import pickle
-
-import os
+from ase import io
 #__|
 
 #| - Script Inputs
-strain_sys = "support"  # 'support' or 'overlayer'
-
+# strain_sys = "support"  # 'support' or 'overlayer'
+strain_sys = "overlayer"  # 'support' or 'overlayer'
 
 bulk_filename = 'Cobulk.cif'
 graphene_filename = 'graph.cif'
@@ -49,7 +49,7 @@ max_angle_diff = 3
 r1r2_tol = 0.5
 #__|
 
-#| - Generate heterstructures
+#| - Generate Heterstructures
 substrate_bulk = Structure.from_file(bulk_filename)
 substrate_slab = Interface(
     substrate_bulk,
@@ -62,7 +62,6 @@ substrate_slab = Interface(
 mat2d_slab = slab_from_file([0, 0, 1], graphene_filename)
 
 
-#| - __test__
 if strain_sys == "support":
     lower_mat = mat2d_slab
     upper_mat = substrate_slab
@@ -70,9 +69,8 @@ elif strain_sys == "overlayer":
     lower_mat = substrate_slab
     upper_mat = mat2d_slab
 
-print(60 * "*")
-print("get_aligned_lattices")
-mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
+# mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
+lower_mat_aligned, upper_mat_aligned = get_aligned_lattices(
     lower_mat,
     upper_mat,
     max_area=max_area,
@@ -80,40 +78,23 @@ mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
     max_angle_diff=max_angle_diff,
     r1r2_tol=r1r2_tol,
     )
-print(60 * "*")
-print("")
-print("")
-#__|
+
+if strain_sys == "support":
+    mat2d_slab_aligned = lower_mat_aligned
+    substrate_slab_aligned = upper_mat_aligned
+elif strain_sys == "overlayer":
+    mat2d_slab_aligned = upper_mat_aligned
+    substrate_slab_aligned = lower_mat_aligned
 
 
-#| - __old__
-# print(60 * "*")
-# print("get_aligned_lattices")
-# mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
-#     mat2d_slab,
-#     substrate_slab,
-#     max_area=max_area,
-#     max_mismatch=max_mismatch,
-#     max_angle_diff=max_angle_diff,
-#     r1r2_tol=r1r2_tol,
-#     )
-# print(60 * "*")
-# print("")
-# print("")
-#__|
-
-
-#| - Writing hetero_interfaces to pickle file
+# Writing hetero_interfaces to pickle file
 with open('aligned_latt_materials.pickle', 'wb') as fle:
     pickle.dump((substrate_slab_aligned, mat2d_slab_aligned), fle)
-#__|
 
 substrate_slab_aligned.to(filename='00_substrate_opt.POSCAR')
 mat2d_slab_aligned.to(filename='00_graphene_opt.POSCAR')
 
 # merge substrate and mat2d in all possible ways
-print(60 * "*")
-print("generate_all_configs")
 hetero_interfaces = generate_all_configs(
     mat2d_slab_aligned,
     substrate_slab_aligned,
@@ -121,25 +102,22 @@ hetero_interfaces = generate_all_configs(
     nlayers_substrate,
     separation,
     )
-print(60 * "*")
-print("")
-print("")
 
-#| - Writing hetero_interfaces to pickle file
+# Writing hetero_interfaces to pickle file
 with open('hetero_interfaces.pickle', 'wb') as fle:
     pickle.dump(hetero_interfaces, fle)
 #__|
 
-#__|
-
 #| - Write all heterostructures to file
-os.mkdir('01_heterostructures')
+out_dir = "01_heterostructures"
+if not os.path.exists(out_dir):
+    os.makedirs(out_dir)
+
 for i, iface in enumerate(hetero_interfaces):
     atoms = AseAtomsAdaptor.get_atoms(iface)
-    write(
+    io.write(
         os.path.join(
-            '.',
-            '01_heterostructures',
+            out_dir,
             'structure_' + str(i + 1).zfill(2) + '.traj',
             ),
         atoms,
