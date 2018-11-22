@@ -2,6 +2,8 @@
 
 """Create heterointerfaces between graphene and slab surface.
 
+I'm working on this in my personal branch - Raul Flores
+
 Todo:
     # Impletment loop over a list of defined surface cuts
 
@@ -37,7 +39,7 @@ nlayers_2d = 1
 nlayers_substrate = 3
 
 # Lattice matching algorithm parameters
-max_area = 100
+max_area = 40
 max_mismatch = 10
 max_angle_diff = 3
 r1r2_tol = 0.5
@@ -53,15 +55,13 @@ substrate_slab = Interface(
     primitive=False,
     from_ase=True,
     )
-
 mat2d_slab = slab_from_file([0, 0, 1], graphene_filename)
 
 print(60 * "*")
 print("get_aligned_lattices")
-# get aligned lattices
-substrate_slab_aligned, mat2d_slab_aligned = get_aligned_lattices(
-    substrate_slab,
+mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
     mat2d_slab,
+    substrate_slab,
     max_area=max_area,
     max_mismatch=max_mismatch,
     max_angle_diff=max_angle_diff,
