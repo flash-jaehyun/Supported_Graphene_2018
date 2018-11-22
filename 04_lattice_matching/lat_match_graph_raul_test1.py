@@ -29,6 +29,9 @@ import os
 #__|
 
 #| - Script Inputs
+strain_sys = "support"  # 'support' or 'overlayer'
+
+
 bulk_filename = 'Cobulk.cif'
 graphene_filename = 'graph.cif'
 
@@ -57,11 +60,20 @@ substrate_slab = Interface(
     )
 mat2d_slab = slab_from_file([0, 0, 1], graphene_filename)
 
+
+#| - __test__
+if strain_sys == "support":
+    lower_mat = mat2d_slab
+    upper_mat = substrate_slab
+elif strain_sys == "overlayer":
+    lower_mat = substrate_slab
+    upper_mat = mat2d_slab
+
 print(60 * "*")
 print("get_aligned_lattices")
 mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
-    mat2d_slab,
-    substrate_slab,
+    lower_mat,
+    upper_mat,
     max_area=max_area,
     max_mismatch=max_mismatch,
     max_angle_diff=max_angle_diff,
@@ -70,6 +82,25 @@ mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
 print(60 * "*")
 print("")
 print("")
+#__|
+
+
+#| - __old__
+# print(60 * "*")
+# print("get_aligned_lattices")
+# mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
+#     mat2d_slab,
+#     substrate_slab,
+#     max_area=max_area,
+#     max_mismatch=max_mismatch,
+#     max_angle_diff=max_angle_diff,
+#     r1r2_tol=r1r2_tol,
+#     )
+# print(60 * "*")
+# print("")
+# print("")
+#__|
+
 
 #| - Writing hetero_interfaces to pickle file
 with open('aligned_latt_materials.pickle', 'wb') as fle:
