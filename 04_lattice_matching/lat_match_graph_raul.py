@@ -2,6 +2,8 @@
 
 """Create heterointerfaces between graphene and slab surface.
 
+This will only be on my sandbox branch - RF
+
 Todo:
     # Impletment loop over a list of defined surface cuts
 
