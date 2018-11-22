@@ -44,9 +44,9 @@ nlayers_substrate = 3
 
 # Lattice matching algorithm parameters
 max_area = 40
-max_mismatch = 10
-max_angle_diff = 3
-r1r2_tol = 0.5
+max_mismatch = 1
+max_angle_diff = 0.1
+r1r2_tol = 0.01
 #__|
 
 #| - Generate Heterstructures
