@@ -1,0 +1,40 @@
+/home/raul_surface/.local/lib/python2.7/site-packages/ase/lattice/surface.py:17: UserWarning: Moved to ase.build
+  warnings.warn('Moved to ase.build')
+Attempting root cut: 3
+03_1_root
+-2.65708224068
+03_2_root
+48.6714588797
+03_3_root
+65.7809725864
+03_4_root
+74.3357294398
+Attempting root cut: 7
+07_1_root
+-56.8112833304
+07_2_root
+21.5943583348
+07_3_root
+47.7295722232
+07_4_root
+60.7971791674
+Attempting root cut: 12
+12_1_root
+-105.314164481
+12_2_root
+-2.65708224068
+12_3_root
+31.5619451729
+12_4_root
+48.6714588797
+Attempting root cut: 13
+13_1_root
+Attempting root cut: 19
+19_1_root
+-158.347991508
+19_2_root
+-29.1739957542
+19_3_root
+13.8840028305
+19_4_root
+35.4130021229

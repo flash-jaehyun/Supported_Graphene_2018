@@ -1,0 +1,15 @@
+Trying a variety of root cuts of the FCC 111 surface to obtain low strain graphene mono-layers
+
+The following slab had the lowest strain:
+
+03_1_root Strain: 0.37961748258013933
+
+
+The approximate optimal spacing between the graphene layer and the surface was
+found in the following job_dir:
+matr.io/model/qe/3/u/raulflores/fe-graph-proj/supp-graph/struct-opt/01-fcc111-rootcut-graph/1-att
+
+For those calculations all atoms were constrained and the optimal graphen-
+surface spacing was found to be:
+
+OPTIMAL GRAPHENE SURFACE SPACING: 1.885 Angstroms
