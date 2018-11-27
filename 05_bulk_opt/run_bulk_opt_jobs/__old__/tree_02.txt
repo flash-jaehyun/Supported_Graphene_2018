@@ -1,0 +1,2919 @@
+.
+├── data
+│   ├── Co
+│   │   └── hcp
+│   │       ├── False
+│   │       │   ├── 2.38174-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.38174-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.4096-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.43746-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.46532-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.49317-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.52103-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.54888-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.57674-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6046-4.27298
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-3.86602
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-3.91124
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-3.95646
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-4.00167
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-4.04689
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-4.09211
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-4.13732
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-4.18254
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63246-4.22776
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   └── 2.63246-4.27298
+│   │       │       ├── _1
+│   │       │       │   ├── dft-params.json
+│   │       │       │   ├── init.traj
+│   │       │       │   └── model.py
+│   │       │       └── job_params.json
+│   │       └── True
+│   │           ├── 2.38174-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.38174-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.4096-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.43746-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.46532-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.49317-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.52103-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.54888-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.57674-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6046-4.27298
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-3.86602
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-3.91124
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-3.95646
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-4.00167
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-4.04689
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-4.09211
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-4.13732
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-4.18254
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63246-4.22776
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           └── 2.63246-4.27298
+│   │               ├── _1
+│   │               │   ├── dft-params.json
+│   │               │   ├── init.traj
+│   │               │   └── model.py
+│   │               └── job_params.json
+│   ├── Mo
+│   │   └── bcc
+│   │       ├── False
+│   │       │   ├── 2.98965-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.02462-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.05958-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.09455-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.12952-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.16448-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.19945-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.23442-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.26938-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   └── 3.30435-nan
+│   │       │       ├── _1
+│   │       │       │   ├── dft-params.json
+│   │       │       │   ├── init.traj
+│   │       │       │   └── model.py
+│   │       │       └── job_params.json
+│   │       └── True
+│   │           ├── 2.98965-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.02462-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.05958-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.09455-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.12952-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.16448-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.19945-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.23442-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.26938-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           └── 3.30435-nan
+│   │               ├── _1
+│   │               │   ├── dft-params.json
+│   │               │   ├── init.traj
+│   │               │   └── model.py
+│   │               └── job_params.json
+│   ├── Ni
+│   │   └── fcc
+│   │       ├── False
+│   │       │   ├── 3.3478-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.38696-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.42611-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.46527-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.50442-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.54358-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.58273-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.62189-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.66104-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   └── 3.7002-nan
+│   │       │       ├── _1
+│   │       │       │   ├── dft-params.json
+│   │       │       │   ├── init.traj
+│   │       │       │   └── model.py
+│   │       │       └── job_params.json
+│   │       └── True
+│   │           ├── 3.3478-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.38696-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.42611-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.46527-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.50442-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.54358-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.58273-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.62189-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.66104-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           └── 3.7002-nan
+│   │               ├── _1
+│   │               │   ├── dft-params.json
+│   │               │   ├── init.traj
+│   │               │   └── model.py
+│   │               └── job_params.json
+│   ├── Rh
+│   │   └── fcc
+│   │       ├── False
+│   │       │   ├── 3.61323-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.65549-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.69775-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.74001-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.78227-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.82453-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.86679-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.90905-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 3.95131-nan
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   └── 3.99357-nan
+│   │       │       ├── _1
+│   │       │       │   ├── dft-params.json
+│   │       │       │   ├── init.traj
+│   │       │       │   └── model.py
+│   │       │       └── job_params.json
+│   │       └── True
+│   │           ├── 3.61323-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.65549-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.69775-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.74001-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.78227-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.82453-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.86679-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.90905-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 3.95131-nan
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           └── 3.99357-nan
+│   │               ├── _1
+│   │               │   ├── dft-params.json
+│   │               │   ├── init.traj
+│   │               │   └── model.py
+│   │               └── job_params.json
+│   ├── Ru
+│   │   └── hcp
+│   │       ├── False
+│   │       │   ├── 2.5706-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.5706-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.60067-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.63074-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.6608-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.69087-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.72093-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.751-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.78106-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.81113-4.49558
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.06742
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.115
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.16257
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.21014
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.25771
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.30529
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.35286
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.40043
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   ├── 2.8412-4.448
+│   │       │   │   ├── _1
+│   │       │   │   │   ├── dft-params.json
+│   │       │   │   │   ├── init.traj
+│   │       │   │   │   └── model.py
+│   │       │   │   └── job_params.json
+│   │       │   └── 2.8412-4.49558
+│   │       │       ├── _1
+│   │       │       │   ├── dft-params.json
+│   │       │       │   ├── init.traj
+│   │       │       │   └── model.py
+│   │       │       └── job_params.json
+│   │       └── True
+│   │           ├── 2.5706-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.5706-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.60067-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.63074-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.6608-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.69087-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.72093-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.751-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.78106-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.81113-4.49558
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.06742
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.115
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.16257
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.21014
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.25771
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.30529
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.35286
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.40043
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           ├── 2.8412-4.448
+│   │           │   ├── _1
+│   │           │   │   ├── dft-params.json
+│   │           │   │   ├── init.traj
+│   │           │   │   └── model.py
+│   │           │   └── job_params.json
+│   │           └── 2.8412-4.49558
+│   │               ├── _1
+│   │               │   ├── dft-params.json
+│   │               │   ├── init.traj
+│   │               │   └── model.py
+│   │               └── job_params.json
+│   └── W
+│       └── bcc
+│           ├── False
+│           │   ├── 3.00694-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.04211-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.07728-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.11245-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.14762-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.18278-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.21795-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.25312-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   ├── 3.28829-nan
+│           │   │   ├── _1
+│           │   │   │   ├── dft-params.json
+│           │   │   │   ├── init.traj
+│           │   │   │   └── model.py
+│           │   │   └── job_params.json
+│           │   └── 3.32346-nan
+│           │       ├── _1
+│           │       │   ├── dft-params.json
+│           │       │   ├── init.traj
+│           │       │   └── model.py
+│           │       └── job_params.json
+│           └── True
+│               ├── 3.00694-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.04211-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.07728-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.11245-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.14762-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.18278-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.21795-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.25312-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               ├── 3.28829-nan
+│               │   ├── _1
+│               │   │   ├── dft-params.json
+│               │   │   ├── init.traj
+│               │   │   └── model.py
+│               │   └── job_params.json
+│               └── 3.32346-nan
+│                   ├── _1
+│                   │   ├── dft-params.json
+│                   │   ├── init.traj
+│                   │   └── model.py
+│                   └── job_params.json
+├── jobs_bin
+│   └── dir_structure.json
+├── methods.py
+├── out1.traj
+├── __pycache__
+│   ├── methods.cpython-36.pyc
+│   └── sc_bulk_opt_jobs.cpython-36.pyc
+├── sc_bulk_opt_jobs.py
+├── test_setup.ipynb
+├── tree_01.txt
+└── tree_02.txt
+
+987 directories, 1929 files

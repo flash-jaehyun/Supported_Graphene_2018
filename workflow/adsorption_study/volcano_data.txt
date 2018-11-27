@@ -1,0 +1,9 @@
+# data_Fe_graph = {
+#     "Fe_slab_False": (0.0536, -0.6),
+#     "Fe_slab_True": (-0.301, -0.3),
+#     "N_graph_Fe_False": (0.598, 0.6),
+#     "graph_Fe_False": (0.938, 0.49),
+#     "graph_Fe_True": (0.81, 0.81),
+#     "graphene_False": (3.11, -0.32),
+#     "graphene_True": (3.11, -0.32),
+#     }

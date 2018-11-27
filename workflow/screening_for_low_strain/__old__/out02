@@ -1,0 +1,840 @@
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 2.45655966852 | 2.45655966852
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 2.45655966852 | diff: -42.3342800817
+Graphene[1]: 4.26 | Slab[2]: 4.91311933704 | diff: 15.3314398366
+Graphene[1]: 4.26 | Slab[3]: 7.36967900556 | diff: 72.9971597549
+Graphene[1]: 4.26 | Slab[4]: 9.82623867408 | diff: 130.662879673
+Graphene[2]: 8.52 | Slab[1]: 2.45655966852 | diff: -71.1671400408
+Graphene[2]: 8.52 | Slab[2]: 4.91311933704 | diff: -42.3342800817
+Graphene[2]: 8.52 | Slab[3]: 7.36967900556 | diff: -13.5014201225
+Graphene[2]: 8.52 | Slab[4]: 9.82623867408 | diff: 15.3314398366
+Graphene[3]: 12.78 | Slab[1]: 2.45655966852 | diff: -80.7780933606
+Graphene[3]: 12.78 | Slab[2]: 4.91311933704 | diff: -61.5561867211
+Graphene[3]: 12.78 | Slab[3]: 7.36967900556 | diff: -42.3342800817
+Graphene[3]: 12.78 | Slab[4]: 9.82623867408 | diff: -23.1123734422
+Graphene[4]: 17.04 | Slab[1]: 2.45655966852 | diff: -85.5835700204
+Graphene[4]: 17.04 | Slab[2]: 4.91311933704 | diff: -71.1671400408
+Graphene[4]: 17.04 | Slab[3]: 7.36967900556 | diff: -56.7507100613
+Graphene[4]: 17.04 | Slab[4]: 9.82623867408 | diff: -42.3342800817
+Graphene[1]: 4.9190242935 | Slab[1]: 2.45655966852 | diff: -50.0600216232
+Graphene[1]: 4.9190242935 | Slab[2]: 4.91311933704 | diff: -0.120043246443
+Graphene[1]: 4.9190242935 | Slab[3]: 7.36967900556 | diff: 49.8199351303
+Graphene[1]: 4.9190242935 | Slab[4]: 9.82623867408 | diff: 99.7599135071
+Graphene[2]: 9.83804858699 | Slab[1]: 2.45655966852 | diff: -75.0300108116
+Graphene[2]: 9.83804858699 | Slab[2]: 4.91311933704 | diff: -50.0600216232
+Graphene[2]: 9.83804858699 | Slab[3]: 7.36967900556 | diff: -25.0900324348
+Graphene[2]: 9.83804858699 | Slab[4]: 9.82623867408 | diff: -0.120043246443
+Graphene[3]: 14.7570728805 | Slab[1]: 2.45655966852 | diff: -83.3533405411
+Graphene[3]: 14.7570728805 | Slab[2]: 4.91311933704 | diff: -66.7066810821
+Graphene[3]: 14.7570728805 | Slab[3]: 7.36967900556 | diff: -50.0600216232
+Graphene[3]: 14.7570728805 | Slab[4]: 9.82623867408 | diff: -33.4133621643
+Graphene[4]: 19.676097174 | Slab[1]: 2.45655966852 | diff: -87.5150054058
+Graphene[4]: 19.676097174 | Slab[2]: 4.91311933704 | diff: -75.0300108116
+Graphene[4]: 19.676097174 | Slab[3]: 7.36967900556 | diff: -62.5450162174
+Graphene[4]: 19.676097174 | Slab[4]: 9.82623867408 | diff: -50.0600216232
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 4.91311933704 | 4.91311933704
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 4.91311933704 | diff: 15.3314398366
+Graphene[1]: 4.26 | Slab[2]: 9.82623867408 | diff: 130.662879673
+Graphene[1]: 4.26 | Slab[3]: 14.7393580111 | diff: 245.99431951
+Graphene[1]: 4.26 | Slab[4]: 19.6524773482 | diff: 361.325759347
+Graphene[2]: 8.52 | Slab[1]: 4.91311933704 | diff: -42.3342800817
+Graphene[2]: 8.52 | Slab[2]: 9.82623867408 | diff: 15.3314398366
+Graphene[2]: 8.52 | Slab[3]: 14.7393580111 | diff: 72.9971597549
+Graphene[2]: 8.52 | Slab[4]: 19.6524773482 | diff: 130.662879673
+Graphene[3]: 12.78 | Slab[1]: 4.91311933704 | diff: -61.5561867211
+Graphene[3]: 12.78 | Slab[2]: 9.82623867408 | diff: -23.1123734422
+Graphene[3]: 12.78 | Slab[3]: 14.7393580111 | diff: 15.3314398366
+Graphene[3]: 12.78 | Slab[4]: 19.6524773482 | diff: 53.7752531155
+Graphene[4]: 17.04 | Slab[1]: 4.91311933704 | diff: -71.1671400408
+Graphene[4]: 17.04 | Slab[2]: 9.82623867408 | diff: -42.3342800817
+Graphene[4]: 17.04 | Slab[3]: 14.7393580111 | diff: -13.5014201225
+Graphene[4]: 17.04 | Slab[4]: 19.6524773482 | diff: 15.3314398366
+Graphene[1]: 4.9190242935 | Slab[1]: 4.91311933704 | diff: -0.120043246443
+Graphene[1]: 4.9190242935 | Slab[2]: 9.82623867408 | diff: 99.7599135071
+Graphene[1]: 4.9190242935 | Slab[3]: 14.7393580111 | diff: 199.639870261
+Graphene[1]: 4.9190242935 | Slab[4]: 19.6524773482 | diff: 299.519827014
+Graphene[2]: 9.83804858699 | Slab[1]: 4.91311933704 | diff: -50.0600216232
+Graphene[2]: 9.83804858699 | Slab[2]: 9.82623867408 | diff: -0.120043246443
+Graphene[2]: 9.83804858699 | Slab[3]: 14.7393580111 | diff: 49.8199351303
+Graphene[2]: 9.83804858699 | Slab[4]: 19.6524773482 | diff: 99.7599135071
+Graphene[3]: 14.7570728805 | Slab[1]: 4.91311933704 | diff: -66.7066810821
+Graphene[3]: 14.7570728805 | Slab[2]: 9.82623867408 | diff: -33.4133621643
+Graphene[3]: 14.7570728805 | Slab[3]: 14.7393580111 | diff: -0.120043246443
+Graphene[3]: 14.7570728805 | Slab[4]: 19.6524773482 | diff: 33.1732756714
+Graphene[4]: 19.676097174 | Slab[1]: 4.91311933704 | diff: -75.0300108116
+Graphene[4]: 19.676097174 | Slab[2]: 9.82623867408 | diff: -50.0600216232
+Graphene[4]: 19.676097174 | Slab[3]: 14.7393580111 | diff: -25.0900324348
+Graphene[4]: 19.676097174 | Slab[4]: 19.6524773482 | diff: -0.120043246443
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 7.36967900556 | 7.36967900556
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 7.36967900556 | diff: 72.9971597549
+Graphene[1]: 4.26 | Slab[2]: 14.7393580111 | diff: 245.99431951
+Graphene[1]: 4.26 | Slab[3]: 22.1090370167 | diff: 418.991479265
+Graphene[1]: 4.26 | Slab[4]: 29.4787160222 | diff: 591.98863902
+Graphene[2]: 8.52 | Slab[1]: 7.36967900556 | diff: -13.5014201225
+Graphene[2]: 8.52 | Slab[2]: 14.7393580111 | diff: 72.9971597549
+Graphene[2]: 8.52 | Slab[3]: 22.1090370167 | diff: 159.495739632
+Graphene[2]: 8.52 | Slab[4]: 29.4787160222 | diff: 245.99431951
+Graphene[3]: 12.78 | Slab[1]: 7.36967900556 | diff: -42.3342800817
+Graphene[3]: 12.78 | Slab[2]: 14.7393580111 | diff: 15.3314398366
+Graphene[3]: 12.78 | Slab[3]: 22.1090370167 | diff: 72.9971597549
+Graphene[3]: 12.78 | Slab[4]: 29.4787160222 | diff: 130.662879673
+Graphene[4]: 17.04 | Slab[1]: 7.36967900556 | diff: -56.7507100613
+Graphene[4]: 17.04 | Slab[2]: 14.7393580111 | diff: -13.5014201225
+Graphene[4]: 17.04 | Slab[3]: 22.1090370167 | diff: 29.7478698162
+Graphene[4]: 17.04 | Slab[4]: 29.4787160222 | diff: 72.9971597549
+Graphene[1]: 4.9190242935 | Slab[1]: 7.36967900556 | diff: 49.8199351303
+Graphene[1]: 4.9190242935 | Slab[2]: 14.7393580111 | diff: 199.639870261
+Graphene[1]: 4.9190242935 | Slab[3]: 22.1090370167 | diff: 349.459805391
+Graphene[1]: 4.9190242935 | Slab[4]: 29.4787160222 | diff: 499.279740521
+Graphene[2]: 9.83804858699 | Slab[1]: 7.36967900556 | diff: -25.0900324348
+Graphene[2]: 9.83804858699 | Slab[2]: 14.7393580111 | diff: 49.8199351303
+Graphene[2]: 9.83804858699 | Slab[3]: 22.1090370167 | diff: 124.729902696
+Graphene[2]: 9.83804858699 | Slab[4]: 29.4787160222 | diff: 199.639870261
+Graphene[3]: 14.7570728805 | Slab[1]: 7.36967900556 | diff: -50.0600216232
+Graphene[3]: 14.7570728805 | Slab[2]: 14.7393580111 | diff: -0.120043246443
+Graphene[3]: 14.7570728805 | Slab[3]: 22.1090370167 | diff: 49.8199351303
+Graphene[3]: 14.7570728805 | Slab[4]: 29.4787160222 | diff: 99.7599135071
+Graphene[4]: 19.676097174 | Slab[1]: 7.36967900556 | diff: -62.5450162174
+Graphene[4]: 19.676097174 | Slab[2]: 14.7393580111 | diff: -25.0900324348
+Graphene[4]: 19.676097174 | Slab[3]: 22.1090370167 | diff: 12.3649513478
+Graphene[4]: 19.676097174 | Slab[4]: 29.4787160222 | diff: 49.8199351303
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 9.82623867408 | 9.82623867408
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 9.82623867408 | diff: 130.662879673
+Graphene[1]: 4.26 | Slab[2]: 19.6524773482 | diff: 361.325759347
+Graphene[1]: 4.26 | Slab[3]: 29.4787160222 | diff: 591.98863902
+Graphene[1]: 4.26 | Slab[4]: 39.3049546963 | diff: 822.651518693
+Graphene[2]: 8.52 | Slab[1]: 9.82623867408 | diff: 15.3314398366
+Graphene[2]: 8.52 | Slab[2]: 19.6524773482 | diff: 130.662879673
+Graphene[2]: 8.52 | Slab[3]: 29.4787160222 | diff: 245.99431951
+Graphene[2]: 8.52 | Slab[4]: 39.3049546963 | diff: 361.325759347
+Graphene[3]: 12.78 | Slab[1]: 9.82623867408 | diff: -23.1123734422
+Graphene[3]: 12.78 | Slab[2]: 19.6524773482 | diff: 53.7752531155
+Graphene[3]: 12.78 | Slab[3]: 29.4787160222 | diff: 130.662879673
+Graphene[3]: 12.78 | Slab[4]: 39.3049546963 | diff: 207.550506231
+Graphene[4]: 17.04 | Slab[1]: 9.82623867408 | diff: -42.3342800817
+Graphene[4]: 17.04 | Slab[2]: 19.6524773482 | diff: 15.3314398366
+Graphene[4]: 17.04 | Slab[3]: 29.4787160222 | diff: 72.9971597549
+Graphene[4]: 17.04 | Slab[4]: 39.3049546963 | diff: 130.662879673
+Graphene[1]: 4.9190242935 | Slab[1]: 9.82623867408 | diff: 99.7599135071
+Graphene[1]: 4.9190242935 | Slab[2]: 19.6524773482 | diff: 299.519827014
+Graphene[1]: 4.9190242935 | Slab[3]: 29.4787160222 | diff: 499.279740521
+Graphene[1]: 4.9190242935 | Slab[4]: 39.3049546963 | diff: 699.039654028
+Graphene[2]: 9.83804858699 | Slab[1]: 9.82623867408 | diff: -0.120043246443
+Graphene[2]: 9.83804858699 | Slab[2]: 19.6524773482 | diff: 99.7599135071
+Graphene[2]: 9.83804858699 | Slab[3]: 29.4787160222 | diff: 199.639870261
+Graphene[2]: 9.83804858699 | Slab[4]: 39.3049546963 | diff: 299.519827014
+Graphene[3]: 14.7570728805 | Slab[1]: 9.82623867408 | diff: -33.4133621643
+Graphene[3]: 14.7570728805 | Slab[2]: 19.6524773482 | diff: 33.1732756714
+Graphene[3]: 14.7570728805 | Slab[3]: 29.4787160222 | diff: 99.7599135071
+Graphene[3]: 14.7570728805 | Slab[4]: 39.3049546963 | diff: 166.346551343
+Graphene[4]: 19.676097174 | Slab[1]: 9.82623867408 | diff: -50.0600216232
+Graphene[4]: 19.676097174 | Slab[2]: 19.6524773482 | diff: -0.120043246443
+Graphene[4]: 19.676097174 | Slab[3]: 29.4787160222 | diff: 49.8199351303
+Graphene[4]: 19.676097174 | Slab[4]: 39.3049546963 | diff: 99.7599135071
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 12.2827983426 | 12.2827983426
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 12.2827983426 | diff: 188.328599592
+Graphene[1]: 4.26 | Slab[2]: 24.5655966852 | diff: 476.657199183
+Graphene[1]: 4.26 | Slab[3]: 36.8483950278 | diff: 764.985798775
+Graphene[1]: 4.26 | Slab[4]: 49.1311933704 | diff: 1053.31439837
+Graphene[2]: 8.52 | Slab[1]: 12.2827983426 | diff: 44.1642997958
+Graphene[2]: 8.52 | Slab[2]: 24.5655966852 | diff: 188.328599592
+Graphene[2]: 8.52 | Slab[3]: 36.8483950278 | diff: 332.492899387
+Graphene[2]: 8.52 | Slab[4]: 49.1311933704 | diff: 476.657199183
+Graphene[3]: 12.78 | Slab[1]: 12.2827983426 | diff: -3.89046680281
+Graphene[3]: 12.78 | Slab[2]: 24.5655966852 | diff: 92.2190663944
+Graphene[3]: 12.78 | Slab[3]: 36.8483950278 | diff: 188.328599592
+Graphene[3]: 12.78 | Slab[4]: 49.1311933704 | diff: 284.438132789
+Graphene[4]: 17.04 | Slab[1]: 12.2827983426 | diff: -27.9178501021
+Graphene[4]: 17.04 | Slab[2]: 24.5655966852 | diff: 44.1642997958
+Graphene[4]: 17.04 | Slab[3]: 36.8483950278 | diff: 116.246449694
+Graphene[4]: 17.04 | Slab[4]: 49.1311933704 | diff: 188.328599592
+Graphene[1]: 4.9190242935 | Slab[1]: 12.2827983426 | diff: 149.699891884
+Graphene[1]: 4.9190242935 | Slab[2]: 24.5655966852 | diff: 399.399783768
+Graphene[1]: 4.9190242935 | Slab[3]: 36.8483950278 | diff: 649.099675652
+Graphene[1]: 4.9190242935 | Slab[4]: 49.1311933704 | diff: 898.799567536
+Graphene[2]: 9.83804858699 | Slab[1]: 12.2827983426 | diff: 24.8499459419
+Graphene[2]: 9.83804858699 | Slab[2]: 24.5655966852 | diff: 149.699891884
+Graphene[2]: 9.83804858699 | Slab[3]: 36.8483950278 | diff: 274.549837826
+Graphene[2]: 9.83804858699 | Slab[4]: 49.1311933704 | diff: 399.399783768
+Graphene[3]: 14.7570728805 | Slab[1]: 12.2827983426 | diff: -16.7667027054
+Graphene[3]: 14.7570728805 | Slab[2]: 24.5655966852 | diff: 66.4665945893
+Graphene[3]: 14.7570728805 | Slab[3]: 36.8483950278 | diff: 149.699891884
+Graphene[3]: 14.7570728805 | Slab[4]: 49.1311933704 | diff: 232.933189179
+Graphene[4]: 19.676097174 | Slab[1]: 12.2827983426 | diff: -37.575027029
+Graphene[4]: 19.676097174 | Slab[2]: 24.5655966852 | diff: 24.8499459419
+Graphene[4]: 19.676097174 | Slab[3]: 36.8483950278 | diff: 87.2749189129
+Graphene[4]: 19.676097174 | Slab[4]: 49.1311933704 | diff: 149.699891884
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 14.7393580111 | 14.7393580111
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 14.7393580111 | diff: 245.99431951
+Graphene[1]: 4.26 | Slab[2]: 29.4787160222 | diff: 591.98863902
+Graphene[1]: 4.26 | Slab[3]: 44.2180740334 | diff: 937.98295853
+Graphene[1]: 4.26 | Slab[4]: 58.9574320445 | diff: 1283.97727804
+Graphene[2]: 8.52 | Slab[1]: 14.7393580111 | diff: 72.9971597549
+Graphene[2]: 8.52 | Slab[2]: 29.4787160222 | diff: 245.99431951
+Graphene[2]: 8.52 | Slab[3]: 44.2180740334 | diff: 418.991479265
+Graphene[2]: 8.52 | Slab[4]: 58.9574320445 | diff: 591.98863902
+Graphene[3]: 12.78 | Slab[1]: 14.7393580111 | diff: 15.3314398366
+Graphene[3]: 12.78 | Slab[2]: 29.4787160222 | diff: 130.662879673
+Graphene[3]: 12.78 | Slab[3]: 44.2180740334 | diff: 245.99431951
+Graphene[3]: 12.78 | Slab[4]: 58.9574320445 | diff: 361.325759347
+Graphene[4]: 17.04 | Slab[1]: 14.7393580111 | diff: -13.5014201225
+Graphene[4]: 17.04 | Slab[2]: 29.4787160222 | diff: 72.9971597549
+Graphene[4]: 17.04 | Slab[3]: 44.2180740334 | diff: 159.495739632
+Graphene[4]: 17.04 | Slab[4]: 58.9574320445 | diff: 245.99431951
+Graphene[1]: 4.9190242935 | Slab[1]: 14.7393580111 | diff: 199.639870261
+Graphene[1]: 4.9190242935 | Slab[2]: 29.4787160222 | diff: 499.279740521
+Graphene[1]: 4.9190242935 | Slab[3]: 44.2180740334 | diff: 798.919610782
+Graphene[1]: 4.9190242935 | Slab[4]: 58.9574320445 | diff: 1098.55948104
+Graphene[2]: 9.83804858699 | Slab[1]: 14.7393580111 | diff: 49.8199351303
+Graphene[2]: 9.83804858699 | Slab[2]: 29.4787160222 | diff: 199.639870261
+Graphene[2]: 9.83804858699 | Slab[3]: 44.2180740334 | diff: 349.459805391
+Graphene[2]: 9.83804858699 | Slab[4]: 58.9574320445 | diff: 499.279740521
+Graphene[3]: 14.7570728805 | Slab[1]: 14.7393580111 | diff: -0.120043246443
+Graphene[3]: 14.7570728805 | Slab[2]: 29.4787160222 | diff: 99.7599135071
+Graphene[3]: 14.7570728805 | Slab[3]: 44.2180740334 | diff: 199.639870261
+Graphene[3]: 14.7570728805 | Slab[4]: 58.9574320445 | diff: 299.519827014
+Graphene[4]: 19.676097174 | Slab[1]: 14.7393580111 | diff: -25.0900324348
+Graphene[4]: 19.676097174 | Slab[2]: 29.4787160222 | diff: 49.8199351303
+Graphene[4]: 19.676097174 | Slab[3]: 44.2180740334 | diff: 124.729902696
+Graphene[4]: 19.676097174 | Slab[4]: 58.9574320445 | diff: 199.639870261
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 17.1959176796 | 17.1959176796
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 17.1959176796 | diff: 303.660039428
+Graphene[1]: 4.26 | Slab[2]: 34.3918353593 | diff: 707.320078856
+Graphene[1]: 4.26 | Slab[3]: 51.5877530389 | diff: 1110.98011828
+Graphene[1]: 4.26 | Slab[4]: 68.7836707186 | diff: 1514.64015771
+Graphene[2]: 8.52 | Slab[1]: 17.1959176796 | diff: 101.830019714
+Graphene[2]: 8.52 | Slab[2]: 34.3918353593 | diff: 303.660039428
+Graphene[2]: 8.52 | Slab[3]: 51.5877530389 | diff: 505.490059142
+Graphene[2]: 8.52 | Slab[4]: 68.7836707186 | diff: 707.320078856
+Graphene[3]: 12.78 | Slab[1]: 17.1959176796 | diff: 34.5533464761
+Graphene[3]: 12.78 | Slab[2]: 34.3918353593 | diff: 169.106692952
+Graphene[3]: 12.78 | Slab[3]: 51.5877530389 | diff: 303.660039428
+Graphene[3]: 12.78 | Slab[4]: 68.7836707186 | diff: 438.213385904
+Graphene[4]: 17.04 | Slab[1]: 17.1959176796 | diff: 0.91500985705
+Graphene[4]: 17.04 | Slab[2]: 34.3918353593 | diff: 101.830019714
+Graphene[4]: 17.04 | Slab[3]: 51.5877530389 | diff: 202.745029571
+Graphene[4]: 17.04 | Slab[4]: 68.7836707186 | diff: 303.660039428
+Graphene[1]: 4.9190242935 | Slab[1]: 17.1959176796 | diff: 249.579848637
+Graphene[1]: 4.9190242935 | Slab[2]: 34.3918353593 | diff: 599.159697275
+Graphene[1]: 4.9190242935 | Slab[3]: 51.5877530389 | diff: 948.739545912
+Graphene[1]: 4.9190242935 | Slab[4]: 68.7836707186 | diff: 1298.31939455
+Graphene[2]: 9.83804858699 | Slab[1]: 17.1959176796 | diff: 74.7899243187
+Graphene[2]: 9.83804858699 | Slab[2]: 34.3918353593 | diff: 249.579848637
+Graphene[2]: 9.83804858699 | Slab[3]: 51.5877530389 | diff: 424.369772956
+Graphene[2]: 9.83804858699 | Slab[4]: 68.7836707186 | diff: 599.159697275
+Graphene[3]: 14.7570728805 | Slab[1]: 17.1959176796 | diff: 16.5266162125
+Graphene[3]: 14.7570728805 | Slab[2]: 34.3918353593 | diff: 133.053232425
+Graphene[3]: 14.7570728805 | Slab[3]: 51.5877530389 | diff: 249.579848637
+Graphene[3]: 14.7570728805 | Slab[4]: 68.7836707186 | diff: 366.10646485
+Graphene[4]: 19.676097174 | Slab[1]: 17.1959176796 | diff: -12.6050378406
+Graphene[4]: 19.676097174 | Slab[2]: 34.3918353593 | diff: 74.7899243187
+Graphene[4]: 19.676097174 | Slab[3]: 51.5877530389 | diff: 162.184886478
+Graphene[4]: 19.676097174 | Slab[4]: 68.7836707186 | diff: 249.579848637
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 19.6524773482 | 19.6524773482
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 19.6524773482 | diff: 361.325759347
+Graphene[1]: 4.26 | Slab[2]: 39.3049546963 | diff: 822.651518693
+Graphene[1]: 4.26 | Slab[3]: 58.9574320445 | diff: 1283.97727804
+Graphene[1]: 4.26 | Slab[4]: 78.6099093926 | diff: 1745.30303739
+Graphene[2]: 8.52 | Slab[1]: 19.6524773482 | diff: 130.662879673
+Graphene[2]: 8.52 | Slab[2]: 39.3049546963 | diff: 361.325759347
+Graphene[2]: 8.52 | Slab[3]: 58.9574320445 | diff: 591.98863902
+Graphene[2]: 8.52 | Slab[4]: 78.6099093926 | diff: 822.651518693
+Graphene[3]: 12.78 | Slab[1]: 19.6524773482 | diff: 53.7752531155
+Graphene[3]: 12.78 | Slab[2]: 39.3049546963 | diff: 207.550506231
+Graphene[3]: 12.78 | Slab[3]: 58.9574320445 | diff: 361.325759347
+Graphene[3]: 12.78 | Slab[4]: 78.6099093926 | diff: 515.101012462
+Graphene[4]: 17.04 | Slab[1]: 19.6524773482 | diff: 15.3314398366
+Graphene[4]: 17.04 | Slab[2]: 39.3049546963 | diff: 130.662879673
+Graphene[4]: 17.04 | Slab[3]: 58.9574320445 | diff: 245.99431951
+Graphene[4]: 17.04 | Slab[4]: 78.6099093926 | diff: 361.325759347
+Graphene[1]: 4.9190242935 | Slab[1]: 19.6524773482 | diff: 299.519827014
+Graphene[1]: 4.9190242935 | Slab[2]: 39.3049546963 | diff: 699.039654028
+Graphene[1]: 4.9190242935 | Slab[3]: 58.9574320445 | diff: 1098.55948104
+Graphene[1]: 4.9190242935 | Slab[4]: 78.6099093926 | diff: 1498.07930806
+Graphene[2]: 9.83804858699 | Slab[1]: 19.6524773482 | diff: 99.7599135071
+Graphene[2]: 9.83804858699 | Slab[2]: 39.3049546963 | diff: 299.519827014
+Graphene[2]: 9.83804858699 | Slab[3]: 58.9574320445 | diff: 499.279740521
+Graphene[2]: 9.83804858699 | Slab[4]: 78.6099093926 | diff: 699.039654028
+Graphene[3]: 14.7570728805 | Slab[1]: 19.6524773482 | diff: 33.1732756714
+Graphene[3]: 14.7570728805 | Slab[2]: 39.3049546963 | diff: 166.346551343
+Graphene[3]: 14.7570728805 | Slab[3]: 58.9574320445 | diff: 299.519827014
+Graphene[3]: 14.7570728805 | Slab[4]: 78.6099093926 | diff: 432.693102686
+Graphene[4]: 19.676097174 | Slab[1]: 19.6524773482 | diff: -0.120043246443
+Graphene[4]: 19.676097174 | Slab[2]: 39.3049546963 | diff: 99.7599135071
+Graphene[4]: 19.676097174 | Slab[3]: 58.9574320445 | diff: 199.639870261
+Graphene[4]: 19.676097174 | Slab[4]: 78.6099093926 | diff: 299.519827014
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 3.4741 | 2.45655966852
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 6.9482 | 4.91311933704
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 10.4223 | 7.36967900556
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 13.8964 | 9.82623867408
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 17.3705 | 12.2827983426
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 20.8446 | 14.7393580111
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 24.3187 | 17.1959176796
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 27.7928 | 19.6524773482
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 2.45655966852 | 2.45655966852
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 4.91311933704 | 4.91311933704
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 7.36967900556 | 7.36967900556
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 9.82623867408 | 9.82623867408
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 12.2827983426 | 12.2827983426
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 14.7393580111 | 14.7393580111
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 17.1959176796 | 17.1959176796
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 19.6524773482 | 19.6524773482
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 2.7576 | 2.7576
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 2.7576 | diff: -35.2676056338
+Graphene[1]: 4.26 | Slab[2]: 5.5152 | diff: 29.4647887324
+Graphene[1]: 4.26 | Slab[3]: 8.2728 | diff: 94.1971830986
+Graphene[1]: 4.26 | Slab[4]: 11.0304 | diff: 158.929577465
+Graphene[2]: 8.52 | Slab[1]: 2.7576 | diff: -67.6338028169
+Graphene[2]: 8.52 | Slab[2]: 5.5152 | diff: -35.2676056338
+Graphene[2]: 8.52 | Slab[3]: 8.2728 | diff: -2.9014084507
+Graphene[2]: 8.52 | Slab[4]: 11.0304 | diff: 29.4647887324
+Graphene[3]: 12.78 | Slab[1]: 2.7576 | diff: -78.4225352113
+Graphene[3]: 12.78 | Slab[2]: 5.5152 | diff: -56.8450704225
+Graphene[3]: 12.78 | Slab[3]: 8.2728 | diff: -35.2676056338
+Graphene[3]: 12.78 | Slab[4]: 11.0304 | diff: -13.6901408451
+Graphene[4]: 17.04 | Slab[1]: 2.7576 | diff: -83.8169014085
+Graphene[4]: 17.04 | Slab[2]: 5.5152 | diff: -67.6338028169
+Graphene[4]: 17.04 | Slab[3]: 8.2728 | diff: -51.4507042254
+Graphene[4]: 17.04 | Slab[4]: 11.0304 | diff: -35.2676056338
+Graphene[1]: 4.9190242935 | Slab[1]: 2.7576 | diff: -43.9401020311
+Graphene[1]: 4.9190242935 | Slab[2]: 5.5152 | diff: 12.1197959378
+Graphene[1]: 4.9190242935 | Slab[3]: 8.2728 | diff: 68.1796939068
+Graphene[1]: 4.9190242935 | Slab[4]: 11.0304 | diff: 124.239591876
+Graphene[2]: 9.83804858699 | Slab[1]: 2.7576 | diff: -71.9700510155
+Graphene[2]: 9.83804858699 | Slab[2]: 5.5152 | diff: -43.9401020311
+Graphene[2]: 9.83804858699 | Slab[3]: 8.2728 | diff: -15.9101530466
+Graphene[2]: 9.83804858699 | Slab[4]: 11.0304 | diff: 12.1197959378
+Graphene[3]: 14.7570728805 | Slab[1]: 2.7576 | diff: -81.3133673437
+Graphene[3]: 14.7570728805 | Slab[2]: 5.5152 | diff: -62.6267346874
+Graphene[3]: 14.7570728805 | Slab[3]: 8.2728 | diff: -43.9401020311
+Graphene[3]: 14.7570728805 | Slab[4]: 11.0304 | diff: -25.2534693748
+Graphene[4]: 19.676097174 | Slab[1]: 2.7576 | diff: -85.9850255078
+Graphene[4]: 19.676097174 | Slab[2]: 5.5152 | diff: -71.9700510155
+Graphene[4]: 19.676097174 | Slab[3]: 8.2728 | diff: -57.9550765233
+Graphene[4]: 19.676097174 | Slab[4]: 11.0304 | diff: -43.9401020311
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 5.5152 | 5.5152
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 5.5152 | diff: 29.4647887324
+Graphene[1]: 4.26 | Slab[2]: 11.0304 | diff: 158.929577465
+Graphene[1]: 4.26 | Slab[3]: 16.5456 | diff: 288.394366197
+Graphene[1]: 4.26 | Slab[4]: 22.0608 | diff: 417.85915493
+Graphene[2]: 8.52 | Slab[1]: 5.5152 | diff: -35.2676056338
+Graphene[2]: 8.52 | Slab[2]: 11.0304 | diff: 29.4647887324
+Graphene[2]: 8.52 | Slab[3]: 16.5456 | diff: 94.1971830986
+Graphene[2]: 8.52 | Slab[4]: 22.0608 | diff: 158.929577465
+Graphene[3]: 12.78 | Slab[1]: 5.5152 | diff: -56.8450704225
+Graphene[3]: 12.78 | Slab[2]: 11.0304 | diff: -13.6901408451
+Graphene[3]: 12.78 | Slab[3]: 16.5456 | diff: 29.4647887324
+Graphene[3]: 12.78 | Slab[4]: 22.0608 | diff: 72.6197183099
+Graphene[4]: 17.04 | Slab[1]: 5.5152 | diff: -67.6338028169
+Graphene[4]: 17.04 | Slab[2]: 11.0304 | diff: -35.2676056338
+Graphene[4]: 17.04 | Slab[3]: 16.5456 | diff: -2.9014084507
+Graphene[4]: 17.04 | Slab[4]: 22.0608 | diff: 29.4647887324
+Graphene[1]: 4.9190242935 | Slab[1]: 5.5152 | diff: 12.1197959378
+Graphene[1]: 4.9190242935 | Slab[2]: 11.0304 | diff: 124.239591876
+Graphene[1]: 4.9190242935 | Slab[3]: 16.5456 | diff: 236.359387814
+Graphene[1]: 4.9190242935 | Slab[4]: 22.0608 | diff: 348.479183751
+Graphene[2]: 9.83804858699 | Slab[1]: 5.5152 | diff: -43.9401020311
+Graphene[2]: 9.83804858699 | Slab[2]: 11.0304 | diff: 12.1197959378
+Graphene[2]: 9.83804858699 | Slab[3]: 16.5456 | diff: 68.1796939068
+Graphene[2]: 9.83804858699 | Slab[4]: 22.0608 | diff: 124.239591876
+Graphene[3]: 14.7570728805 | Slab[1]: 5.5152 | diff: -62.6267346874
+Graphene[3]: 14.7570728805 | Slab[2]: 11.0304 | diff: -25.2534693748
+Graphene[3]: 14.7570728805 | Slab[3]: 16.5456 | diff: 12.1197959378
+Graphene[3]: 14.7570728805 | Slab[4]: 22.0608 | diff: 49.4930612505
+Graphene[4]: 19.676097174 | Slab[1]: 5.5152 | diff: -71.9700510155
+Graphene[4]: 19.676097174 | Slab[2]: 11.0304 | diff: -43.9401020311
+Graphene[4]: 19.676097174 | Slab[3]: 16.5456 | diff: -15.9101530466
+Graphene[4]: 19.676097174 | Slab[4]: 22.0608 | diff: 12.1197959378
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 8.2728 | 8.2728
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 8.2728 | diff: 94.1971830986
+Graphene[1]: 4.26 | Slab[2]: 16.5456 | diff: 288.394366197
+Graphene[1]: 4.26 | Slab[3]: 24.8184 | diff: 482.591549296
+Graphene[1]: 4.26 | Slab[4]: 33.0912 | diff: 676.788732394
+Graphene[2]: 8.52 | Slab[1]: 8.2728 | diff: -2.9014084507
+Graphene[2]: 8.52 | Slab[2]: 16.5456 | diff: 94.1971830986
+Graphene[2]: 8.52 | Slab[3]: 24.8184 | diff: 191.295774648
+Graphene[2]: 8.52 | Slab[4]: 33.0912 | diff: 288.394366197
+Graphene[3]: 12.78 | Slab[1]: 8.2728 | diff: -35.2676056338
+Graphene[3]: 12.78 | Slab[2]: 16.5456 | diff: 29.4647887324
+Graphene[3]: 12.78 | Slab[3]: 24.8184 | diff: 94.1971830986
+Graphene[3]: 12.78 | Slab[4]: 33.0912 | diff: 158.929577465
+Graphene[4]: 17.04 | Slab[1]: 8.2728 | diff: -51.4507042254
+Graphene[4]: 17.04 | Slab[2]: 16.5456 | diff: -2.9014084507
+Graphene[4]: 17.04 | Slab[3]: 24.8184 | diff: 45.6478873239
+Graphene[4]: 17.04 | Slab[4]: 33.0912 | diff: 94.1971830986
+Graphene[1]: 4.9190242935 | Slab[1]: 8.2728 | diff: 68.1796939068
+Graphene[1]: 4.9190242935 | Slab[2]: 16.5456 | diff: 236.359387814
+Graphene[1]: 4.9190242935 | Slab[3]: 24.8184 | diff: 404.53908172
+Graphene[1]: 4.9190242935 | Slab[4]: 33.0912 | diff: 572.718775627
+Graphene[2]: 9.83804858699 | Slab[1]: 8.2728 | diff: -15.9101530466
+Graphene[2]: 9.83804858699 | Slab[2]: 16.5456 | diff: 68.1796939068
+Graphene[2]: 9.83804858699 | Slab[3]: 24.8184 | diff: 152.26954086
+Graphene[2]: 9.83804858699 | Slab[4]: 33.0912 | diff: 236.359387814
+Graphene[3]: 14.7570728805 | Slab[1]: 8.2728 | diff: -43.9401020311
+Graphene[3]: 14.7570728805 | Slab[2]: 16.5456 | diff: 12.1197959378
+Graphene[3]: 14.7570728805 | Slab[3]: 24.8184 | diff: 68.1796939068
+Graphene[3]: 14.7570728805 | Slab[4]: 33.0912 | diff: 124.239591876
+Graphene[4]: 19.676097174 | Slab[1]: 8.2728 | diff: -57.9550765233
+Graphene[4]: 19.676097174 | Slab[2]: 16.5456 | diff: -15.9101530466
+Graphene[4]: 19.676097174 | Slab[3]: 24.8184 | diff: 26.1347704301
+Graphene[4]: 19.676097174 | Slab[4]: 33.0912 | diff: 68.1796939068
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 11.0304 | 11.0304
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 11.0304 | diff: 158.929577465
+Graphene[1]: 4.26 | Slab[2]: 22.0608 | diff: 417.85915493
+Graphene[1]: 4.26 | Slab[3]: 33.0912 | diff: 676.788732394
+Graphene[1]: 4.26 | Slab[4]: 44.1216 | diff: 935.718309859
+Graphene[2]: 8.52 | Slab[1]: 11.0304 | diff: 29.4647887324
+Graphene[2]: 8.52 | Slab[2]: 22.0608 | diff: 158.929577465
+Graphene[2]: 8.52 | Slab[3]: 33.0912 | diff: 288.394366197
+Graphene[2]: 8.52 | Slab[4]: 44.1216 | diff: 417.85915493
+Graphene[3]: 12.78 | Slab[1]: 11.0304 | diff: -13.6901408451
+Graphene[3]: 12.78 | Slab[2]: 22.0608 | diff: 72.6197183099
+Graphene[3]: 12.78 | Slab[3]: 33.0912 | diff: 158.929577465
+Graphene[3]: 12.78 | Slab[4]: 44.1216 | diff: 245.23943662
+Graphene[4]: 17.04 | Slab[1]: 11.0304 | diff: -35.2676056338
+Graphene[4]: 17.04 | Slab[2]: 22.0608 | diff: 29.4647887324
+Graphene[4]: 17.04 | Slab[3]: 33.0912 | diff: 94.1971830986
+Graphene[4]: 17.04 | Slab[4]: 44.1216 | diff: 158.929577465
+Graphene[1]: 4.9190242935 | Slab[1]: 11.0304 | diff: 124.239591876
+Graphene[1]: 4.9190242935 | Slab[2]: 22.0608 | diff: 348.479183751
+Graphene[1]: 4.9190242935 | Slab[3]: 33.0912 | diff: 572.718775627
+Graphene[1]: 4.9190242935 | Slab[4]: 44.1216 | diff: 796.958367503
+Graphene[2]: 9.83804858699 | Slab[1]: 11.0304 | diff: 12.1197959378
+Graphene[2]: 9.83804858699 | Slab[2]: 22.0608 | diff: 124.239591876
+Graphene[2]: 9.83804858699 | Slab[3]: 33.0912 | diff: 236.359387814
+Graphene[2]: 9.83804858699 | Slab[4]: 44.1216 | diff: 348.479183751
+Graphene[3]: 14.7570728805 | Slab[1]: 11.0304 | diff: -25.2534693748
+Graphene[3]: 14.7570728805 | Slab[2]: 22.0608 | diff: 49.4930612505
+Graphene[3]: 14.7570728805 | Slab[3]: 33.0912 | diff: 124.239591876
+Graphene[3]: 14.7570728805 | Slab[4]: 44.1216 | diff: 198.986122501
+Graphene[4]: 19.676097174 | Slab[1]: 11.0304 | diff: -43.9401020311
+Graphene[4]: 19.676097174 | Slab[2]: 22.0608 | diff: 12.1197959378
+Graphene[4]: 19.676097174 | Slab[3]: 33.0912 | diff: 68.1796939068
+Graphene[4]: 19.676097174 | Slab[4]: 44.1216 | diff: 124.239591876
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 13.788 | 13.788
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 13.788 | diff: 223.661971831
+Graphene[1]: 4.26 | Slab[2]: 27.576 | diff: 547.323943662
+Graphene[1]: 4.26 | Slab[3]: 41.364 | diff: 870.985915493
+Graphene[1]: 4.26 | Slab[4]: 55.152 | diff: 1194.64788732
+Graphene[2]: 8.52 | Slab[1]: 13.788 | diff: 61.8309859155
+Graphene[2]: 8.52 | Slab[2]: 27.576 | diff: 223.661971831
+Graphene[2]: 8.52 | Slab[3]: 41.364 | diff: 385.492957746
+Graphene[2]: 8.52 | Slab[4]: 55.152 | diff: 547.323943662
+Graphene[3]: 12.78 | Slab[1]: 13.788 | diff: 7.88732394366
+Graphene[3]: 12.78 | Slab[2]: 27.576 | diff: 115.774647887
+Graphene[3]: 12.78 | Slab[3]: 41.364 | diff: 223.661971831
+Graphene[3]: 12.78 | Slab[4]: 55.152 | diff: 331.549295775
+Graphene[4]: 17.04 | Slab[1]: 13.788 | diff: -19.0845070423
+Graphene[4]: 17.04 | Slab[2]: 27.576 | diff: 61.8309859155
+Graphene[4]: 17.04 | Slab[3]: 41.364 | diff: 142.746478873
+Graphene[4]: 17.04 | Slab[4]: 55.152 | diff: 223.661971831
+Graphene[1]: 4.9190242935 | Slab[1]: 13.788 | diff: 180.299489845
+Graphene[1]: 4.9190242935 | Slab[2]: 27.576 | diff: 460.598979689
+Graphene[1]: 4.9190242935 | Slab[3]: 41.364 | diff: 740.898469534
+Graphene[1]: 4.9190242935 | Slab[4]: 55.152 | diff: 1021.19795938
+Graphene[2]: 9.83804858699 | Slab[1]: 13.788 | diff: 40.1497449223
+Graphene[2]: 9.83804858699 | Slab[2]: 27.576 | diff: 180.299489845
+Graphene[2]: 9.83804858699 | Slab[3]: 41.364 | diff: 320.449234767
+Graphene[2]: 9.83804858699 | Slab[4]: 55.152 | diff: 460.598979689
+Graphene[3]: 14.7570728805 | Slab[1]: 13.788 | diff: -6.56683671847
+Graphene[3]: 14.7570728805 | Slab[2]: 27.576 | diff: 86.8663265631
+Graphene[3]: 14.7570728805 | Slab[3]: 41.364 | diff: 180.299489845
+Graphene[3]: 14.7570728805 | Slab[4]: 55.152 | diff: 273.732653126
+Graphene[4]: 19.676097174 | Slab[1]: 13.788 | diff: -29.9251275389
+Graphene[4]: 19.676097174 | Slab[2]: 27.576 | diff: 40.1497449223
+Graphene[4]: 19.676097174 | Slab[3]: 41.364 | diff: 110.224617383
+Graphene[4]: 19.676097174 | Slab[4]: 55.152 | diff: 180.299489845
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 16.5456 | 16.5456
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 16.5456 | diff: 288.394366197
+Graphene[1]: 4.26 | Slab[2]: 33.0912 | diff: 676.788732394
+Graphene[1]: 4.26 | Slab[3]: 49.6368 | diff: 1065.18309859
+Graphene[1]: 4.26 | Slab[4]: 66.1824 | diff: 1453.57746479
+Graphene[2]: 8.52 | Slab[1]: 16.5456 | diff: 94.1971830986
+Graphene[2]: 8.52 | Slab[2]: 33.0912 | diff: 288.394366197
+Graphene[2]: 8.52 | Slab[3]: 49.6368 | diff: 482.591549296
+Graphene[2]: 8.52 | Slab[4]: 66.1824 | diff: 676.788732394
+Graphene[3]: 12.78 | Slab[1]: 16.5456 | diff: 29.4647887324
+Graphene[3]: 12.78 | Slab[2]: 33.0912 | diff: 158.929577465
+Graphene[3]: 12.78 | Slab[3]: 49.6368 | diff: 288.394366197
+Graphene[3]: 12.78 | Slab[4]: 66.1824 | diff: 417.85915493
+Graphene[4]: 17.04 | Slab[1]: 16.5456 | diff: -2.9014084507
+Graphene[4]: 17.04 | Slab[2]: 33.0912 | diff: 94.1971830986
+Graphene[4]: 17.04 | Slab[3]: 49.6368 | diff: 191.295774648
+Graphene[4]: 17.04 | Slab[4]: 66.1824 | diff: 288.394366197
+Graphene[1]: 4.9190242935 | Slab[1]: 16.5456 | diff: 236.359387814
+Graphene[1]: 4.9190242935 | Slab[2]: 33.0912 | diff: 572.718775627
+Graphene[1]: 4.9190242935 | Slab[3]: 49.6368 | diff: 909.078163441
+Graphene[1]: 4.9190242935 | Slab[4]: 66.1824 | diff: 1245.43755125
+Graphene[2]: 9.83804858699 | Slab[1]: 16.5456 | diff: 68.1796939068
+Graphene[2]: 9.83804858699 | Slab[2]: 33.0912 | diff: 236.359387814
+Graphene[2]: 9.83804858699 | Slab[3]: 49.6368 | diff: 404.53908172
+Graphene[2]: 9.83804858699 | Slab[4]: 66.1824 | diff: 572.718775627
+Graphene[3]: 14.7570728805 | Slab[1]: 16.5456 | diff: 12.1197959378
+Graphene[3]: 14.7570728805 | Slab[2]: 33.0912 | diff: 124.239591876
+Graphene[3]: 14.7570728805 | Slab[3]: 49.6368 | diff: 236.359387814
+Graphene[3]: 14.7570728805 | Slab[4]: 66.1824 | diff: 348.479183751
+Graphene[4]: 19.676097174 | Slab[1]: 16.5456 | diff: -15.9101530466
+Graphene[4]: 19.676097174 | Slab[2]: 33.0912 | diff: 68.1796939068
+Graphene[4]: 19.676097174 | Slab[3]: 49.6368 | diff: 152.26954086
+Graphene[4]: 19.676097174 | Slab[4]: 66.1824 | diff: 236.359387814
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 19.3032 | 19.3032
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 19.3032 | diff: 353.126760563
+Graphene[1]: 4.26 | Slab[2]: 38.6064 | diff: 806.253521127
+Graphene[1]: 4.26 | Slab[3]: 57.9096 | diff: 1259.38028169
+Graphene[1]: 4.26 | Slab[4]: 77.2128 | diff: 1712.50704225
+Graphene[2]: 8.52 | Slab[1]: 19.3032 | diff: 126.563380282
+Graphene[2]: 8.52 | Slab[2]: 38.6064 | diff: 353.126760563
+Graphene[2]: 8.52 | Slab[3]: 57.9096 | diff: 579.690140845
+Graphene[2]: 8.52 | Slab[4]: 77.2128 | diff: 806.253521127
+Graphene[3]: 12.78 | Slab[1]: 19.3032 | diff: 51.0422535211
+Graphene[3]: 12.78 | Slab[2]: 38.6064 | diff: 202.084507042
+Graphene[3]: 12.78 | Slab[3]: 57.9096 | diff: 353.126760563
+Graphene[3]: 12.78 | Slab[4]: 77.2128 | diff: 504.169014085
+Graphene[4]: 17.04 | Slab[1]: 19.3032 | diff: 13.2816901408
+Graphene[4]: 17.04 | Slab[2]: 38.6064 | diff: 126.563380282
+Graphene[4]: 17.04 | Slab[3]: 57.9096 | diff: 239.845070423
+Graphene[4]: 17.04 | Slab[4]: 77.2128 | diff: 353.126760563
+Graphene[1]: 4.9190242935 | Slab[1]: 19.3032 | diff: 292.419285782
+Graphene[1]: 4.9190242935 | Slab[2]: 38.6064 | diff: 684.838571565
+Graphene[1]: 4.9190242935 | Slab[3]: 57.9096 | diff: 1077.25785735
+Graphene[1]: 4.9190242935 | Slab[4]: 77.2128 | diff: 1469.67714313
+Graphene[2]: 9.83804858699 | Slab[1]: 19.3032 | diff: 96.2096428912
+Graphene[2]: 9.83804858699 | Slab[2]: 38.6064 | diff: 292.419285782
+Graphene[2]: 9.83804858699 | Slab[3]: 57.9096 | diff: 488.628928674
+Graphene[2]: 9.83804858699 | Slab[4]: 77.2128 | diff: 684.838571565
+Graphene[3]: 14.7570728805 | Slab[1]: 19.3032 | diff: 30.8064285941
+Graphene[3]: 14.7570728805 | Slab[2]: 38.6064 | diff: 161.612857188
+Graphene[3]: 14.7570728805 | Slab[3]: 57.9096 | diff: 292.419285782
+Graphene[3]: 14.7570728805 | Slab[4]: 77.2128 | diff: 423.225714377
+Graphene[4]: 19.676097174 | Slab[1]: 19.3032 | diff: -1.89517855439
+Graphene[4]: 19.676097174 | Slab[2]: 38.6064 | diff: 96.2096428912
+Graphene[4]: 19.676097174 | Slab[3]: 57.9096 | diff: 194.314464337
+Graphene[4]: 19.676097174 | Slab[4]: 77.2128 | diff: 292.419285782
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 22.0608 | 22.0608
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene[1]: 4.26 | Slab[1]: 22.0608 | diff: 417.85915493
+Graphene[1]: 4.26 | Slab[2]: 44.1216 | diff: 935.718309859
+Graphene[1]: 4.26 | Slab[3]: 66.1824 | diff: 1453.57746479
+Graphene[1]: 4.26 | Slab[4]: 88.2432 | diff: 1971.43661972
+Graphene[2]: 8.52 | Slab[1]: 22.0608 | diff: 158.929577465
+Graphene[2]: 8.52 | Slab[2]: 44.1216 | diff: 417.85915493
+Graphene[2]: 8.52 | Slab[3]: 66.1824 | diff: 676.788732394
+Graphene[2]: 8.52 | Slab[4]: 88.2432 | diff: 935.718309859
+Graphene[3]: 12.78 | Slab[1]: 22.0608 | diff: 72.6197183099
+Graphene[3]: 12.78 | Slab[2]: 44.1216 | diff: 245.23943662
+Graphene[3]: 12.78 | Slab[3]: 66.1824 | diff: 417.85915493
+Graphene[3]: 12.78 | Slab[4]: 88.2432 | diff: 590.478873239
+Graphene[4]: 17.04 | Slab[1]: 22.0608 | diff: 29.4647887324
+Graphene[4]: 17.04 | Slab[2]: 44.1216 | diff: 158.929577465
+Graphene[4]: 17.04 | Slab[3]: 66.1824 | diff: 288.394366197
+Graphene[4]: 17.04 | Slab[4]: 88.2432 | diff: 417.85915493
+Graphene[1]: 4.9190242935 | Slab[1]: 22.0608 | diff: 348.479183751
+Graphene[1]: 4.9190242935 | Slab[2]: 44.1216 | diff: 796.958367503
+Graphene[1]: 4.9190242935 | Slab[3]: 66.1824 | diff: 1245.43755125
+Graphene[1]: 4.9190242935 | Slab[4]: 88.2432 | diff: 1693.91673501
+Graphene[2]: 9.83804858699 | Slab[1]: 22.0608 | diff: 124.239591876
+Graphene[2]: 9.83804858699 | Slab[2]: 44.1216 | diff: 348.479183751
+Graphene[2]: 9.83804858699 | Slab[3]: 66.1824 | diff: 572.718775627
+Graphene[2]: 9.83804858699 | Slab[4]: 88.2432 | diff: 796.958367503
+Graphene[3]: 14.7570728805 | Slab[1]: 22.0608 | diff: 49.4930612505
+Graphene[3]: 14.7570728805 | Slab[2]: 44.1216 | diff: 198.986122501
+Graphene[3]: 14.7570728805 | Slab[3]: 66.1824 | diff: 348.479183751
+Graphene[3]: 14.7570728805 | Slab[4]: 88.2432 | diff: 497.972245002
+Graphene[4]: 19.676097174 | Slab[1]: 22.0608 | diff: 12.1197959378
+Graphene[4]: 19.676097174 | Slab[2]: 44.1216 | diff: 124.239591876
+Graphene[4]: 19.676097174 | Slab[3]: 66.1824 | diff: 236.359387814
+Graphene[4]: 19.676097174 | Slab[4]: 88.2432 | diff: 348.479183751
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 2.7576 | 2.38815165348
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 5.5152 | 4.77630330695
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 8.2728 | 7.16445496043
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 11.0304 | 9.5526066139
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 13.788 | 11.9407582674
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 16.5456 | 14.3289099209
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 19.3032 | 16.7170615743
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 22.0608 | 19.1052132278
+Nothing to do here
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 3.8998353196 | 3.8998353196
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 7.7996706392 | 7.7996706392
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 11.6995059588 | 11.6995059588
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 15.5993412784 | 15.5993412784
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 19.499176598 | 19.499176598
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 23.3990119176 | 23.3990119176
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 27.2988472372 | 27.2988472372
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 31.1986825568 | 31.1986825568
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________

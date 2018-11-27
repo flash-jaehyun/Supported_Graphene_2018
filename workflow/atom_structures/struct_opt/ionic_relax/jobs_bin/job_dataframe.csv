@@ -1,0 +1,25 @@
+kpoints,magmom,max_revision,path,pw-cutoff,revision_number,variable_list,elec_energy,atom_type_num_dict
+441,True,1,data/01-400/01-441/01-True/,400,1,"[{'property': u'pw-cutoff', 'value': 400}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': True}]",-31719.372558636525,"[{'C': 6, 'Fe': 9}]"
+441,True,1,data/02-600/01-441/01-True/,600,1,"[{'property': u'pw-cutoff', 'value': 600}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': True}]",,
+441,True,1,data/03-800/01-441/01-True/,800,1,"[{'property': u'pw-cutoff', 'value': 800}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': True}]",,
+441,True,1,data/04-1000/01-441/01-True/,1000,1,"[{'property': u'pw-cutoff', 'value': 1000}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': True}]",,
+661,True,1,data/01-400/02-661/01-True/,400,1,"[{'property': u'pw-cutoff', 'value': 400}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': True}]",-31719.254462381894,"[{'C': 6, 'Fe': 9}]"
+661,True,1,data/02-600/02-661/01-True/,600,1,"[{'property': u'pw-cutoff', 'value': 600}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': True}]",-31722.011074940983,"[{'C': 6, 'Fe': 9}]"
+661,True,1,data/03-800/02-661/01-True/,800,1,"[{'property': u'pw-cutoff', 'value': 800}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': True}]",-31722.59719545364,"[{'C': 6, 'Fe': 9}]"
+661,True,1,data/04-1000/02-661/01-True/,1000,1,"[{'property': u'pw-cutoff', 'value': 1000}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': True}]",,
+881,True,1,data/01-400/03-881/01-True/,400,1,"[{'property': u'pw-cutoff', 'value': 400}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': True}]",,
+881,True,1,data/02-600/03-881/01-True/,600,1,"[{'property': u'pw-cutoff', 'value': 600}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': True}]",-31721.86858830559,"[{'C': 6, 'Fe': 9}]"
+881,True,1,data/03-800/03-881/01-True/,800,1,"[{'property': u'pw-cutoff', 'value': 800}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': True}]",-31722.43520417364,"[{'C': 6, 'Fe': 9}]"
+881,True,1,data/04-1000/03-881/01-True/,1000,1,"[{'property': u'pw-cutoff', 'value': 1000}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': True}]",-31722.09063858185,"[{'C': 6, 'Fe': 9}]"
+441,False,1,data/01-400/01-441/02-False/,400,1,"[{'property': u'pw-cutoff', 'value': 400}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': False}]",-31718.297235857128,"[{'C': 6, 'Fe': 9}]"
+441,False,1,data/02-600/01-441/02-False/,600,1,"[{'property': u'pw-cutoff', 'value': 600}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': False}]",-31721.43520706596,"[{'C': 6, 'Fe': 9}]"
+441,False,1,data/03-800/01-441/02-False/,800,1,"[{'property': u'pw-cutoff', 'value': 800}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': False}]",-31721.510036470052,"[{'C': 6, 'Fe': 9}]"
+441,False,1,data/04-1000/01-441/02-False/,1000,1,"[{'property': u'pw-cutoff', 'value': 1000}, {'property': u'kpoints', 'value': u'441'}, {'property': u'magmom', 'value': False}]",-31721.53267783904,"[{'C': 6, 'Fe': 9}]"
+661,False,1,data/01-400/02-661/02-False/,400,1,"[{'property': u'pw-cutoff', 'value': 400}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': False}]",-31718.177435489502,"[{'C': 6, 'Fe': 9}]"
+661,False,1,data/02-600/02-661/02-False/,600,1,"[{'property': u'pw-cutoff', 'value': 600}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': False}]",-31721.3047453457,"[{'C': 6, 'Fe': 9}]"
+661,False,1,data/03-800/02-661/02-False/,800,1,"[{'property': u'pw-cutoff', 'value': 800}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': False}]",-31721.37929066293,"[{'C': 6, 'Fe': 9}]"
+661,False,1,data/04-1000/02-661/02-False/,1000,1,"[{'property': u'pw-cutoff', 'value': 1000}, {'property': u'kpoints', 'value': u'661'}, {'property': u'magmom', 'value': False}]",-31721.402031353482,"[{'C': 6, 'Fe': 9}]"
+881,False,1,data/01-400/03-881/02-False/,400,1,"[{'property': u'pw-cutoff', 'value': 400}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': False}]",-31718.199988149372,"[{'C': 6, 'Fe': 9}]"
+881,False,1,data/02-600/03-881/02-False/,600,1,"[{'property': u'pw-cutoff', 'value': 600}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': False}]",-31721.337433566227,"[{'C': 6, 'Fe': 9}]"
+881,False,1,data/03-800/03-881/02-False/,800,1,"[{'property': u'pw-cutoff', 'value': 800}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': False}]",-31721.412180791933,"[{'C': 6, 'Fe': 9}]"
+881,False,1,data/04-1000/03-881/02-False/,1000,1,"[{'property': u'pw-cutoff', 'value': 1000}, {'property': u'kpoints', 'value': u'881'}, {'property': u'magmom', 'value': False}]",-31721.434784064983,"[{'C': 6, 'Fe': 9}]"
