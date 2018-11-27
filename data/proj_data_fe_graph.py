@@ -790,6 +790,152 @@ dft_latt_const_dict = {
 
 #__|
 
+#| - Surface Facets
+tmp_dict = {
+
+    #| - Nickel
+    "Ni": {
+        # Most stable <--------------------------------------------------------
+        "fcc": {
+            "a": 3.528057,  # spinpol: True
+            "a1": 3.526998,  # spinpol: False
+            "a1": 3.527580,  # Kevin
+            },
+
+        "bcc": {
+            "a": None,
+            },
+
+        "hcp": {
+            "a": None,
+            "c": None,
+            },
+        },
+    #__|
+
+    #| - Cobalt
+    "Co": {
+        "fcc": {
+            "a": None,
+            },
+
+        "bcc": {
+            "a": None,
+            },
+
+        # Most stable <--------------------------------------------------------
+        "hcp": {
+
+            # spinpol: True
+            "a": 2.488106,
+            "c": 4.120884,
+
+            # spinpol: False
+            "a2": 2.472911,
+            "c2": 3.964677,
+
+            # Kevin | spinpol: True
+            "a3": 2.472911,
+            "c3": 3.964677,
+            },
+        },
+    #__|
+
+    #| - Ruthenium
+    "Ru": {
+        "fcc": {
+            "a": None,
+            },
+
+        "bcc": {
+            "a": None,
+            },
+
+        # Most stable <--------------------------------------------------------
+        "hcp": {
+            # spinpol: True
+            "a": 2.738153,
+            "c": 4.280635,
+
+            # spinpol: False
+            "a2": 2.73706,
+            "c2": 4.28237,
+
+            # Kevin
+            "a3": 2.728156,
+            "c3": 4.3,
+
+            },
+        },
+    #__|
+
+    #| - Rhodium
+    "Rh": {
+        "fcc": {
+            "a": 3.861584,  # spinpol: True
+            "a2": 3.86089,  # spinpol: False
+            "a3": 3.861137,  # Kevin
+            },
+
+        "bcc": {
+            "a": None,
+            },
+
+        # Most stable <--------------------------------------------------------
+        "hcp": {
+            "a": None,
+            "c": None,
+            },
+        },
+    #__|
+
+    #| - Molybdenum
+    "Mo": {
+        "fcc": {
+            "a": None,
+            },
+
+        # Most stable <--------------------------------------------------------
+        "bcc": {
+            "a": 3.161018,  # spinpol: True
+            "a2": 3.161018,  # spinpol: False
+            "a3": 3.147,  # Kevin
+            },
+
+        "hcp": {
+            "a": None,
+            "c": None,
+            },
+        },
+    #__|
+
+    #| - Tungsten
+    "W": {
+
+        # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
+        "fcc": {
+            "a": None,
+            },
+
+        # Most stable <--------------------------------------------------------
+        "bcc": {
+            "a": 3.182625,  # spinpol: True
+            "a2": 3.182625,  # spinpol: False
+            "a3": 3.1819781,  # Kevin
+            },
+
+        "hcp": {
+            "a": None,
+            "c": None,
+            },
+        },
+    #__|
+
+    }
+
+
+#__|
+
 
 #| - __misc__
 proj_dir_name = "01_fe_graph"
