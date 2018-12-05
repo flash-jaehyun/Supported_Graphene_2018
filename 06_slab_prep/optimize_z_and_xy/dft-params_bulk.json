@@ -2,7 +2,7 @@
   "kpts": [
     "6",
     "6",
-    "6"
+    "1"
   ],
   "parflags": null,
   "xc": "BEEF-vdW",
@@ -20,7 +20,7 @@
   "pw": 600,
   "noncollinear": false,
   "dipole": {
-    "status": false
+    "status": true
   },
   "beefensemble": true,
   "printensemble": true,

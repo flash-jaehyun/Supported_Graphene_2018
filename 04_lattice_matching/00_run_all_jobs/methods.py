@@ -11,8 +11,8 @@ import os
 import shutil
 import json
 
-# from ase import io
-# from ase import build
+from ase import io
+from ase import build
 #__|
 
 def dir_setup(
@@ -49,39 +49,45 @@ def dir_setup(
         )
     #__|
 
-    #| - Creating Atoms Object
-    atoms_i = job_params_i["atoms_new"]
-
-    atoms_i.write(
+    #| - Copying Graphene cif file
+    file_dir = "./init_graphene.cif"
+    shutil.copyfile(
+        file_dir,
         os.path.join(
             path_i,
-            "init.traj"
+            "init_graphene.cif"
             )
         )
     #__|
 
-    #| - DFT Params File
-    # dft_params_dir = os.path.join(
-    #     os.environ["git_fe_graph_proj"],
-    #     "03_dft_calcs",
-    #     "dft-params_bulk.json",
-    #     )
-
-    dft_params_dir = "./dft-params_bulk.json"
-    dft_params_dict = json.load(open(dft_params_dir, "r"))
-    dft_params_dict["spinpol"] = job_params_i.get("spinpol", True)
-
-
-    dft_params_path_i = os.path.join(
+    #| - Writing Facet to File
+    file_path_i = os.path.join(
         path_i,
-        "dft-params.json",
+        "facet.json",
         )
-
-    with open(dft_params_path_i, 'w') as outfile:
-        json.dump(dft_params_dict, outfile, indent=2)
+    with open(file_path_i, "w") as outfile:
+        json.dump(
+            {
+                "facet": job_params_i["facet"],
+                },
+            # dft_params_dict,
+            outfile,
+            indent=2,
+            )
     #__|
 
-    # ###### last thing #######
+    #| - Creating Atoms Object
+    atoms_i = job_params_i["atoms"]
+
+    atoms_i.write(
+        os.path.join(
+            path_i,
+            "init_support.cif"
+            )
+        )
+
+    #__|
+
     #| - Writing Ready File for First Step
     open(path_i + "/.READY", "w")
     #__|
@@ -93,8 +99,31 @@ def dir_setup(
 
 
 
-
 #| - __old__
+
+
+    #| - DFT Params File
+    # # dft_params_dir = os.path.join(
+    # #     os.environ["git_fe_graph_proj"],
+    # #     "03_dft_calcs",
+    # #     "dft-params_bulk.json",
+    # #     )
+    #
+    # dft_params_dir = "./dft-params_bulk.json"
+    # dft_params_dict = json.load(open(dft_params_dir, "r"))
+    # dft_params_dict["spinpol"] = job_params_i.get("spinpol", True)
+    #
+    #
+    # dft_params_path_i = os.path.join(
+    #     path_i,
+    #     "dft-params.json",
+    #     )
+    #
+    # with open(dft_params_path_i, 'w') as outfile:
+    #     json.dump(dft_params_dict, outfile, indent=2)
+
+    #__|
+
 
 # def job_maint(
 #     step_i,

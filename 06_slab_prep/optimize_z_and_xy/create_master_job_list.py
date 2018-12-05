@@ -97,6 +97,7 @@ for i_cnt, row_i in df.iterrows():
         job_dict_i["job_type"] = "opt_z_spacing"
 
         path_i = "/".join([
+            "data",
             str(job_dict_i.get("job_type", "nan")),
             str(job_dict_i.get("element", "nan")),
             str(job_dict_i.get("crystal_structure", "nan")),
