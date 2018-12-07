@@ -621,7 +621,7 @@ exp_latt_const_dict = {
     #| - Tungsten
     "W": {
 
-        # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
+        # FACE-CENTERED-CUBIC TUNGSTEN FILMS OBTAINED BY
         "fcc": {
             "a": 4.15,
             },
@@ -652,7 +652,7 @@ dft_latt_const_dict = {
         "fcc": {
             "a": 3.528057,  # spinpol: True
             "a1": 3.526998,  # spinpol: False
-            "a1": 3.527580,  # Kevin
+            "a2": 3.527580,  # Kevin
             },
 
         "bcc": {
@@ -694,95 +694,95 @@ dft_latt_const_dict = {
         },
     #__|
 
-    #| - Ruthenium
-    "Ru": {
-        "fcc": {
-            "a": None,
-            },
-
-        "bcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "hcp": {
-            # spinpol: True
-            "a": 2.738153,
-            "c": 4.280635,
-
-            # spinpol: False
-            "a2": 2.73706,
-            "c2": 4.28237,
-
-            # Kevin
-            "a3": 2.728156,
-            "c3": 4.3,
-
-            },
-        },
-    #__|
-
-    #| - Rhodium
-    "Rh": {
-        "fcc": {
-            "a": 3.861584,  # spinpol: True
-            "a2": 3.86089,  # spinpol: False
-            "a3": 3.861137,  # Kevin
-            },
-
-        "bcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
-
-    #| - Molybdenum
-    "Mo": {
-        "fcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "bcc": {
-            "a": 3.161018,  # spinpol: True
-            "a2": 3.161018,  # spinpol: False
-            "a3": 3.147,  # Kevin
-            },
-
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
-
-    #| - Tungsten
-    "W": {
-
-        # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
-        "fcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "bcc": {
-            "a": 3.182625,  # spinpol: True
-            "a2": 3.182625,  # spinpol: False
-            "a3": 3.1819781,  # Kevin
-            },
-
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
+    # #| - Ruthenium
+    # "Ru": {
+    #     "fcc": {
+    #         "a": None,
+    #         },
+    #
+    #     "bcc": {
+    #         "a": None,
+    #         },
+    #
+    #     # Most stable <--------------------------------------------------------
+    #     "hcp": {
+    #         # spinpol: True
+    #         "a": 2.738153,
+    #         "c": 4.280635,
+    #
+    #         # spinpol: False
+    #         "a2": 2.73706,
+    #         "c2": 4.28237,
+    #
+    #         # Kevin
+    #         "a3": 2.728156,
+    #         "c3": 4.3,
+    #
+    #         },
+    #     },
+    # #__|
+    #
+    # #| - Rhodium
+    # "Rh": {
+    #     "fcc": {
+    #         "a": 3.861584,  # spinpol: True
+    #         "a2": 3.86089,  # spinpol: False
+    #         "a3": 3.861137,  # Kevin
+    #         },
+    #
+    #     "bcc": {
+    #         "a": None,
+    #         },
+    #
+    #     # Most stable <--------------------------------------------------------
+    #     "hcp": {
+    #         "a": None,
+    #         "c": None,
+    #         },
+    #     },
+    # #__|
+    #
+    # #| - Molybdenum
+    # "Mo": {
+    #     "fcc": {
+    #         "a": None,
+    #         },
+    #
+    #     # Most stable <--------------------------------------------------------
+    #     "bcc": {
+    #         "a": 3.161018,  # spinpol: True
+    #         "a2": 3.161018,  # spinpol: False
+    #         "a3": 3.147,  # Kevin
+    #         },
+    #
+    #     "hcp": {
+    #         "a": None,
+    #         "c": None,
+    #         },
+    #     },
+    # #__|
+    #
+    # #| - Tungsten
+    # "W": {
+    #
+    #     # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
+    #     "fcc": {
+    #         "a": None,
+    #         },
+    #
+    #     # Most stable <--------------------------------------------------------
+    #     "bcc": {
+    #         "a": 3.182625,  # spinpol: True
+    #         "a2": 3.182625,  # spinpol: False
+    #         "a3": 3.1819781,  # Kevin
+    #         },
+    #
+    #     "hcp": {
+    #         "a": None,
+    #         "c": None,
+    #         },
+    #     },
+    # #__|
 
     }
 
@@ -818,24 +818,24 @@ dft_latt_const_dict = {
 surface_facets = [
     [1, 3, 3],
     [3, 3, 2],
-    [1, 1, 1],
-    [2, 2, 1],
-    [1, 2, 2],
-    [3, 3, 1],
-    [3, 1, 3],
-    [0, 1, 0],
-    [1, 1, 0],
-    [3, 2, 2],
-    [2, 1, 2],
-    [2, 1, 1],
-    [2, 1, 0],
-    [3, 2, 0],
-    [1, 0, 1],
-    [0, 0, 1],
-    [3, 2, 1],
-    [1, 0, 2],
-    [1, 0, 0],
-    [0, 1, 1],
+    # [1, 1, 1],
+    # [2, 2, 1],
+    # [1, 2, 2],
+    # [3, 3, 1],
+    # [3, 1, 3],
+    # [0, 1, 0],
+    # [1, 1, 0],
+    # [3, 2, 2],
+    # [2, 1, 2],
+    # [2, 1, 1],
+    # [2, 1, 0],
+    # [3, 2, 0],
+    # [1, 0, 1],
+    # [0, 0, 1],
+    # [3, 2, 1],
+    # [1, 0, 2],
+    # [1, 0, 0],
+    # [0, 1, 1],
     ]
 
 #__|

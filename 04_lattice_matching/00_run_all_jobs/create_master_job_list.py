@@ -11,8 +11,8 @@ import os
 import sys
 
 sys.path.insert(0, os.path.join(
-        os.environ["PROJ_fe_graph"],
-        "data"))
+    os.environ["PROJ_fe_graph"],
+    "data"))
 
 from proj_data_fe_graph import (
     most_stable_crystal_structure_dict,
