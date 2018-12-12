@@ -1,4 +1,3 @@
-
 # coding: utf-8
 """Create heterointerfaces between graphene and slab surface.
 
@@ -6,7 +5,6 @@ Author(s): Raul Flores
 """
 
 #| - Import Modules
-
 import os
 import sys
 
@@ -28,7 +26,6 @@ from ase.visualize import view
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
 
 from pymatgen.io.ase import AseAtomsAdaptor
-
 #__|
 
 

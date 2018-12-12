@@ -1,0 +1,12 @@
+initial values:
+uv1:
+[array([2.46590000e+00, 0.00000000e+00, 1.50992827e-16]), array([-1.23295000e+00,  2.13553204e+00,  1.50992827e-16])]
+uv2:
+[array([6.58292029e+00, 0.00000000e+00, 4.03087613e-16]), array([6.62688046e-16, 4.12088000e+00, 2.52331125e-16])]
+ 
+rmax1, rmax2: 18, 3
+
+searching ...
+
+ NO MATCH FOUND
+no matching u and v, trying adjusting the parameters
