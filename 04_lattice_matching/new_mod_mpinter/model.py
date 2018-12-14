@@ -160,6 +160,7 @@ def create_heterostructure(
 
 
 # | - __main__
+
 surface_cut = json.load(open("facet.json", "r"))["facet"]
 
 bulk_structure = Structure.from_file(bulk_filename)

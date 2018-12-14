@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env pytfehon
 
 """Create heterointerfaces between graphene and slab surface.
 
@@ -30,7 +30,6 @@ from pymatgen.io.ase import AseAtomsAdaptor
 
 
 #| - TEMP
-
 atoms_list = []
 for metal_i, cryst_dict_i in dft_latt_const_dict.items():
     for cryst_j, latt_params_j in cryst_dict_i.items():
