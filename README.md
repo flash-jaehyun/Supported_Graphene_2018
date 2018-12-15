@@ -5,3 +5,6 @@ So you can open the files in the repo on atom in your local computer and
 make changes/add/delete content from them. You can even make new files
 
 Then you can push the changes to the master repo
+
+
+I'm going to keep an unpacked copy of the workflow dir in the $PROJ_DATA folder

@@ -1,9 +1,0 @@
-initial values:
-uv1:
-[array([2.46590000e+00, 0.00000000e+00, 1.50992827e-16]), array([-1.23295000e+00,  2.13553204e+00,  1.50992827e-16])]
-uv2:
-[array([1.52746147e+01, 0.00000000e+00, 9.35300403e-16]), array([-1.28428579e+01,  3.55789727e+00,  8.16017444e-16])]
- 
-rmax1, rmax2: 18, 1
-
-r_list is empty. Try increasing the max surface area or/and the other tolerance paramaters

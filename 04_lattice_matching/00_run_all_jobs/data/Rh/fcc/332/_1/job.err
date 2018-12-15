@@ -1,6 +1,0 @@
-/home/users/flores12/anaconda_env/envs/MPInterface/lib/python3.6/site-packages/mpinterfaces/__init__.py:45: UserWarning: Check your mpint_config.yaml potentials path
-  warnings.warn('Check your mpint_config.yaml potentials path')
-/home/users/flores12/anaconda_env/envs/MPInterface/lib/python3.6/site-packages/mpinterfaces/__init__.py:65: UserWarning: Check MP_API Key in mpint_config.yaml
-  warnings.warn('Check MP_API Key in mpint_config.yaml')
-/home/users/flores12/anaconda_env/envs/MPInterface/lib/python3.6/site-packages/pymatgen/util/coord_utils.py:3: UserWarning: pymatgen.util.coord_utils has been renamed pymatgen.util.coord. This stub will be removed in PMG 2018.1.1.
-  warnings.warn("pymatgen.util.coord_utils has been renamed "

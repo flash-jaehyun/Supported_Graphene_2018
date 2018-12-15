@@ -1,3 +1,7 @@
 04_lattice_matching/new_mod_mpinter/01_heterostructures/
 
 .ipynb_checkpoints
+
+__pycache__
+
+*conflicted copy*

@@ -1,9 +1,0 @@
-ontop-ontop   | 1 | data/01-ooh/01-ontop-ontop/01-True/
-ontop-ontop   | 1 | data/01-ooh/01-ontop-ontop/02-False/
-ontop-trifold | 1 | data/01-ooh/02-ontop-trifold/01-True/
-ontop-trifold | 2 | data/01-ooh/02-ontop-trifold/01-True/
-Bridge	| 1	|	data/04-h2o/02-ontop-trifold/02-False/
-Trifold	| 2	|	data/04-h2o/03-bridge/01-True/
-Bridge	| 1	|	data/04-h2o/03-bridge/02-False/
-Trifold	| 1	|	data/04-h2o/04-ring-center/01-True/
-Bridge	| 1	|	data/04-h2o/04-ring-center/02-False/

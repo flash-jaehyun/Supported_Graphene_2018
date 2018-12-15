@@ -1,2 +1,0 @@
-rm -r 1STEP/
-rm ./FOLDERS_CREATED
