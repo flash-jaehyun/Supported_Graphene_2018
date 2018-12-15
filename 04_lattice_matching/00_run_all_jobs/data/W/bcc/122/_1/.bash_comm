@@ -1,0 +1,1 @@
+/usr/bin/sbatch -p owners,iric,normal --nodes 1 --ntasks-per-node 2 --mem-per-cpu 2000 --time 20 --job-name /scratch/users/flores12/03_graph_N_Fe/05_lattice_matching/3-att/data/W/bcc/122/_1 --qos normal --mail-user flores12@stanford.edu --mail-type FAIL --output job.out --error job.err -C CPU_GEN:HSW model.py

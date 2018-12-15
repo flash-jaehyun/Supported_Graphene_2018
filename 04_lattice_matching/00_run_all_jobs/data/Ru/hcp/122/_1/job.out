@@ -1,0 +1,9 @@
+initial values:
+uv1:
+[array([2.46590000e+00, 0.00000000e+00, 1.50992827e-16]), array([-1.23295000e+00,  2.13553204e+00,  1.50992827e-16])]
+uv2:
+[array([6.95080862e+00, 0.00000000e+00, 4.25614277e-16]), array([1.55757610e+00, 4.83686892e+00, 3.11150340e-16])]
+ 
+rmax1, rmax2: 18, 2
+
+r_list is empty. Try increasing the max surface area or/and the other tolerance paramaters

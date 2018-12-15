@@ -324,6 +324,7 @@ gas_molec_corr_dict = {
     "h2": -0.043,
     "h2o": -0.011,
     }
+
 #__|
 
 #| - Adsorbate Energetics
@@ -511,7 +512,7 @@ df_vegge["author_short"] = "vegge"
 #__| **************************************************************************
 
 
-#| - Bulk Metal Experimental Properties
+#| - Bulk Metal Properties
 
 most_stable_crystal_structure_dict = {
     "Ni": "fcc",
@@ -621,7 +622,7 @@ exp_latt_const_dict = {
     #| - Tungsten
     "W": {
 
-        # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
+        # FACE-CENTERED-CUBIC TUNGSTEN FILMS OBTAINED BY
         "fcc": {
             "a": 4.15,
             },
@@ -652,7 +653,7 @@ dft_latt_const_dict = {
         "fcc": {
             "a": 3.528057,  # spinpol: True
             "a1": 3.526998,  # spinpol: False
-            "a1": 3.527580,  # Kevin
+            "a2": 3.527580,  # Kevin
             },
 
         "bcc": {
@@ -791,148 +792,52 @@ dft_latt_const_dict = {
 #__|
 
 #| - Surface Facets
-tmp_dict = {
 
-    #| - Nickel
-    "Ni": {
-        # Most stable <--------------------------------------------------------
-        "fcc": {
-            "a": 3.528057,  # spinpol: True
-            "a1": 3.526998,  # spinpol: False
-            "a1": 3.527580,  # Kevin
-            },
+# surface_facets = [
+#     '133',
+#     '332',
+#     '111',
+#     '221',
+#     '122',
+#     '331',
+#     '313',
+#     '010',
+#     '110',
+#     '322',
+#     '212',
+#     '211',
+#     '210',
+#     '320',
+#     '101',
+#     '001',
+#     '321',
+#     '102',
+#     '100',
+#     '011',
+#     ]
 
-        "bcc": {
-            "a": None,
-            },
-
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
-
-    #| - Cobalt
-    "Co": {
-        "fcc": {
-            "a": None,
-            },
-
-        "bcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "hcp": {
-
-            # spinpol: True
-            "a": 2.488106,
-            "c": 4.120884,
-
-            # spinpol: False
-            "a2": 2.472911,
-            "c2": 3.964677,
-
-            # Kevin | spinpol: True
-            "a3": 2.472911,
-            "c3": 3.964677,
-            },
-        },
-    #__|
-
-    #| - Ruthenium
-    "Ru": {
-        "fcc": {
-            "a": None,
-            },
-
-        "bcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "hcp": {
-            # spinpol: True
-            "a": 2.738153,
-            "c": 4.280635,
-
-            # spinpol: False
-            "a2": 2.73706,
-            "c2": 4.28237,
-
-            # Kevin
-            "a3": 2.728156,
-            "c3": 4.3,
-
-            },
-        },
-    #__|
-
-    #| - Rhodium
-    "Rh": {
-        "fcc": {
-            "a": 3.861584,  # spinpol: True
-            "a2": 3.86089,  # spinpol: False
-            "a3": 3.861137,  # Kevin
-            },
-
-        "bcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
-
-    #| - Molybdenum
-    "Mo": {
-        "fcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "bcc": {
-            "a": 3.161018,  # spinpol: True
-            "a2": 3.161018,  # spinpol: False
-            "a3": 3.147,  # Kevin
-            },
-
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
-
-    #| - Tungsten
-    "W": {
-
-        # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
-        "fcc": {
-            "a": None,
-            },
-
-        # Most stable <--------------------------------------------------------
-        "bcc": {
-            "a": 3.182625,  # spinpol: True
-            "a2": 3.182625,  # spinpol: False
-            "a3": 3.1819781,  # Kevin
-            },
-
-        "hcp": {
-            "a": None,
-            "c": None,
-            },
-        },
-    #__|
-
-    }
-
+surface_facets = [
+    [1, 3, 3],
+    [3, 3, 2],
+    [1, 1, 1],
+    [2, 2, 1],
+    [1, 2, 2],
+    [3, 3, 1],
+    [3, 1, 3],
+    [0, 1, 0],
+    [1, 1, 0],
+    [3, 2, 2],
+    [2, 1, 2],
+    [2, 1, 1],
+    [2, 1, 0],
+    [3, 2, 0],
+    [1, 0, 1],
+    [0, 0, 1],
+    [3, 2, 1],
+    [1, 0, 2],
+    [1, 0, 0],
+    [0, 1, 1],
+    ]
 
 #__|
 
