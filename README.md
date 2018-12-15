@@ -6,5 +6,6 @@ make changes/add/delete content from them. You can even make new files
 
 Then you can push the changes to the master repo
 
-
+# Notes:
+___
 I'm going to keep an unpacked copy of the workflow dir in the $PROJ_DATA folder
