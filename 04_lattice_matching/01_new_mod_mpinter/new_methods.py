@@ -6,16 +6,17 @@ Author: Raul A. Flores
 # | - Import Modules
 import sys
 
-import pickle
+# import pickle
 import numpy as np
 from pymatgen.core.structure import Structure
 from pymatgen.core.lattice import Lattice
 
 from mpinterfaces.transformations import (
+
     # get_aligned_lattices,
     # get_matching_lattices,
-
     # Structure,
+
     generate_all_configs,
     get_mismatch,
     get_angle,
@@ -29,6 +30,27 @@ from math import sqrt
 # from mpinterfaces.utils import slab_from_file
 from mpinterfaces.interface import Interface
 #__|
+
+# #############################################################################
+#  ██████ ██████  ███████  █████  ████████ ███████
+# ██      ██   ██ ██      ██   ██    ██    ██
+# ██      ██████  █████   ███████    ██    █████
+# ██      ██   ██ ██      ██   ██    ██    ██
+#  ██████ ██   ██ ███████ ██   ██    ██    ███████
+
+# ██   ██ ███████ ████████ ███████ ██████   ██████
+# ██   ██ ██         ██    ██      ██   ██ ██    ██
+# ███████ █████      ██    █████   ██████  ██    ██
+# ██   ██ ██         ██    ██      ██   ██ ██    ██
+# ██   ██ ███████    ██    ███████ ██   ██  ██████
+
+# ███████ ████████ ██████  ██    ██  ██████ ████████ ██    ██ ██████  ███████
+# ██         ██    ██   ██ ██    ██ ██         ██    ██    ██ ██   ██ ██
+# ███████    ██    ██████  ██    ██ ██         ██    ██    ██ ██████  █████
+#      ██    ██    ██   ██ ██    ██ ██         ██    ██    ██ ██   ██ ██
+# ███████    ██    ██   ██  ██████   ██████    ██     ██████  ██   ██ ███████
+# #############################################################################
+
 
 def create_heterostructure(
     bulk_structure=None,
@@ -65,7 +87,7 @@ def create_heterostructure(
     r1r2_tol:
 
     """
-    #| - create_heterostructure
+    #| - create_heterostructure ***********************************************
     # substrate_bulk = Structure.from_file(bulk_filename)
 
     substrate_slab = Interface(
@@ -90,6 +112,7 @@ def create_heterostructure(
 
     # mat2d_slab_aligned, substrate_slab_aligned = get_aligned_lattices(
     # lower_mat_aligned, upper_mat_aligned = get_aligned_lattices(
+
     all_aligned_lattices = get_aligned_lattices(
         lower_mat,
         upper_mat,
@@ -98,12 +121,22 @@ def create_heterostructure(
         max_angle_diff=max_angle_diff,
         r1r2_tol=r1r2_tol,
         )
-    # return(tmp)
-    # return(lower_mat_aligned, upper_mat_aligned)
+
+
+    #| - CHECK OUTPUT FOR CORRECT TYPE
+    if all_aligned_lattices is None:
+        all_aligned_lattices = []
+    #__|
+
     hetero_interfaces_list = []
-    for aligned_lattices_i in all_aligned_lattices:
-        lower_mat_aligned = aligned_lattices_i[0]
-        upper_mat_aligned = aligned_lattices_i[1]
+    hetero_interfaces_list_tmp = []
+    # for aligned_lattices_i in all_aligned_lattices:
+    for sys_i in all_aligned_lattices:
+        lower_mat_aligned = sys_i["substrate"]
+        upper_mat_aligned = sys_i["mat2d"]
+
+        # lower_mat_aligned = aligned_lattices_i[0]
+        # upper_mat_aligned = aligned_lattices_i[1]
 
         if strain_sys == "support":
             mat2d_slab_aligned = lower_mat_aligned
@@ -111,15 +144,6 @@ def create_heterostructure(
         elif strain_sys == "overlayer":
             mat2d_slab_aligned = upper_mat_aligned
             substrate_slab_aligned = lower_mat_aligned
-
-
-        # # Writing hetero_interfaces to pickle file
-        # with open('aligned_latt_materials.pickle', 'wb') as fle:
-        #     pickle.dump((substrate_slab_aligned, mat2d_slab_aligned), fle)
-        #
-        # substrate_slab_aligned.to(filename='00_substrate_opt.POSCAR')
-        # mat2d_slab_aligned.to(filename='00_graphene_opt.POSCAR')
-
 
         # merge substrate and mat2d in all possible ways
         hetero_interfaces = generate_all_configs(
@@ -130,18 +154,59 @@ def create_heterostructure(
             separation,
             )
 
-        # # Writing hetero_interfaces to pickle file
-        # with open('hetero_interfaces.pickle', 'wb') as fle:
-        #     pickle.dump(hetero_interfaces, fle)
-
         # TEMP | Only appending the first entry because they are all just
         # translations of the 2D material
         hetero_interfaces_list.append(hetero_interfaces[0])
 
+        hetero_interfaces_list_tmp.append(
+            {
+                **sys_i,
+                "heterointerface": hetero_interfaces[0],
+                }
+            )
+
+
         # return(hetero_interfaces)
 
-    return(hetero_interfaces_list)
+    return(hetero_interfaces_list_tmp)
+
+    # return(hetero_interfaces_list)
+
+
+    #| - __old__
+    # # Writing hetero_interfaces to pickle file
+    # with open('aligned_latt_materials.pickle', 'wb') as fle:
+    #     pickle.dump((substrate_slab_aligned, mat2d_slab_aligned), fle)
+    #
+    # substrate_slab_aligned.to(filename='00_substrate_opt.POSCAR')
+    # mat2d_slab_aligned.to(filename='00_graphene_opt.POSCAR')
+
+    # # Writing hetero_interfaces to pickle file
+    # with open('hetero_interfaces.pickle', 'wb') as fle:
+    #     pickle.dump(hetero_interfaces, fle)
     #__|
+
+    #__| **********************************************************************
+
+# #############################################################################
+#  ██████  ███████ ████████
+# ██       ██         ██
+# ██   ███ █████      ██
+# ██    ██ ██         ██
+#  ██████  ███████    ██
+
+#  █████  ██      ██  ██████  ███    ██ ███████ ██████
+# ██   ██ ██      ██ ██       ████   ██ ██      ██   ██
+# ███████ ██      ██ ██   ███ ██ ██  ██ █████   ██   ██
+# ██   ██ ██      ██ ██    ██ ██  ██ ██ ██      ██   ██
+# ██   ██ ███████ ██  ██████  ██   ████ ███████ ██████
+
+# ██       █████  ████████ ████████ ██  ██████ ███████ ███████
+# ██      ██   ██    ██       ██    ██ ██      ██      ██
+# ██      ███████    ██       ██    ██ ██      █████   ███████
+# ██      ██   ██    ██       ██    ██ ██      ██           ██
+# ███████ ██   ██    ██       ██    ██  ██████ ███████ ███████
+# #############################################################################
 
 
 def get_aligned_lattices(
@@ -157,7 +222,7 @@ def get_aligned_lattices(
     slab structures with lattices that are aligned with respect to each
     other
     """
-    #| - get_aligned_lattices
+    #| - get_aligned_lattices *************************************************
 
     def process_sys(
         slab_sub,
@@ -243,11 +308,19 @@ def get_aligned_lattices(
         r1r2_tol=r1r2_tol,
         )
 
+    # COMBAK | Handle case where there are no systems
+    if all_matching_lattices is None:
+        print("no matching u and v, trying adjusting the parameters")
+        return(None)
 
-    sub_mat2d_list = []
+    # sub_mat2d_list = []
+    sub_mat2d_list_tmp = []
     for sys_i in all_matching_lattices:
+        #| - body
+        uv_substrate = sys_i["uv1"]
+        uv_mat2d = sys_i["uv2"]
 
-        uv_substrate, uv_mat2d = sys_i[0], sys_i[1]
+        # uv_substrate, uv_mat2d = sys_i[0], sys_i[1]
 
         substrate, mat2d = process_sys(
             slab_sub,
@@ -256,17 +329,23 @@ def get_aligned_lattices(
             uv_mat2d,
             )
 
-        sub_mat2d_list.append(
-            (substrate, mat2d)
+        sub_mat2d_list_tmp.append(
+            {
+                **sys_i,
+                "substrate": substrate,
+                "mat2d": mat2d,
+                }
             )
 
-    # if not uv_substrate and not uv_mat2d:
-    #     print("no matching u and v, trying adjusting the parameters")
-    #     sys.exit()
+        # COMBAK Delete this later
+        # sub_mat2d_list.append(
+        #     (substrate, mat2d)
+        #     )
+        #__|
 
+    return(sub_mat2d_list_tmp)
 
-    return(sub_mat2d_list)
-
+    # return(sub_mat2d_list)
     # return(substrate, mat2d)
 
     #| - __old__
@@ -333,8 +412,28 @@ def get_aligned_lattices(
     # return(substrate, mat2d)
     #__|
 
-    #__|
+    #__| **********************************************************************
 
+
+# #############################################################################
+#  ██████  ███████ ████████
+# ██       ██         ██
+# ██   ███ █████      ██
+# ██    ██ ██         ██
+#  ██████  ███████    ██
+
+# ███    ███  █████  ████████  ██████ ██   ██ ██ ███    ██  ██████
+# ████  ████ ██   ██    ██    ██      ██   ██ ██ ████   ██ ██
+# ██ ████ ██ ███████    ██    ██      ███████ ██ ██ ██  ██ ██   ███
+# ██  ██  ██ ██   ██    ██    ██      ██   ██ ██ ██  ██ ██ ██    ██
+# ██      ██ ██   ██    ██     ██████ ██   ██ ██ ██   ████  ██████
+
+# ██       █████  ████████ ████████ ██  ██████ ███████ ███████
+# ██      ██   ██    ██       ██    ██ ██      ██      ██
+# ██      ███████    ██       ██    ██ ██      █████   ███████
+# ██      ██   ██    ██       ██    ██ ██      ██           ██
+# ███████ ██   ██    ██       ██    ██  ██████ ███████ ███████
+# #############################################################################
 
 def get_matching_lattices(
     iface1,
@@ -348,7 +447,7 @@ def get_matching_lattices(
     computes a list of matching reduced lattice vectors that satify
     the max_area, max_mismatch and max_anglele_diff criteria
     """
-    #| - get_matching_lattices
+    #| - get_matching_lattices ************************************************
     if iface1 is None and iface2 is None:
         # | - iface1 and 2 is None
         # test : the numbers from the paper
@@ -393,7 +492,10 @@ def get_matching_lattices(
     #__|
 
     # | - Searching For-loop
-    found = []
+    # COMBAK Delete this  later
+    # found = []
+
+    found_tmp = []  # TEMP
     print('searching ...')
     for r1r2 in r_list:
         uv1_list, tm1_list = reduced_supercell_vectors(ab1, r1r2[0])
@@ -429,21 +531,45 @@ def get_matching_lattices(
                                 tm2_list[j][1] = tm2_list[j][0] + tm2_list[j][
                                     1]
 
-                        found.append(
-                            (
-                                uv1, uv2, min(area1, area2),
-                                u_mismatch,
-                                v_mismatch,
-                                angle_mismatch,
-                                tm1_list[i],
-                                tm2_list[j],
-                                )
+                        # COMBAK Delete this later
+                        # found.append(
+                        #     (
+                        #         uv1, uv2, min(area1, area2),
+                        #         u_mismatch,
+                        #         v_mismatch,
+                        #         angle_mismatch,
+                        #         tm1_list[i],
+                        #         tm2_list[j],
+                        #         )
+                        #     )
+
+                        # TEMP COMBAK | This will be the main object
+                        found_tmp.append(
+                            {
+                                "uv1": uv1,
+                                "uv2": uv2,
+                                "min_area": min(area1, area2),
+                                "u_mismatch": u_mismatch,
+                                "v_mismatch": v_mismatch,
+                                "angle_mismatch": angle_mismatch,
+                                "tm1_list": tm1_list[i],
+                                "tm2_list": tm2_list[j],
+                                }
                             )
+
+    print("searching complete!")
     #__|
 
-    if found:
+    if len(found_tmp) > 0:
+        return(found_tmp)
+    elif len(found_tmp) == 0:
+        print('\n NO MATCH FOUND')
+        return(None)
+    else:
+        print("37542 - Check this out")
+        pass
 
-        return(found)
+    #| - __old__
 
         #| - If structure found
         # print('\nMATCH FOUND\n')
@@ -458,10 +584,6 @@ def get_matching_lattices(
         # return uv_opt[0], uv_opt[1]
         #__|
 
-    else:
-        # | - else
-        print('\n NO MATCH FOUND')
-        return None, None
-        #__|
-
     #__|
+
+    #__| **********************************************************************
