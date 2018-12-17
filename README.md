@@ -9,3 +9,5 @@ Then you can push the changes to the master repo
 
 
 I'm going to keep an unpacked copy of the workflow dir in the $PROJ_DATA folder
+
+Testing this from Sherlock
