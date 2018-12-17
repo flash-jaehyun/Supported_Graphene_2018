@@ -29,9 +29,9 @@ for Job_i in Jobs_M.Job_list:
     Jobs_M.submit_job(**{
         "path_i": Job_i.full_path,
         "nodes": "1",  # --nodes
-        "cpus": "2",  # --ntasks-per-node
-        "memory": "2000",  # --mem-per-cpu
-        "wall_time": "20",  # --time (720min -> 12hrs)
+        "cpus": "4",  # --ntasks-per-node
+        "memory": "4000",  # --mem-per-cpu
+        "wall_time": "30",  # --time (720min -> 12hrs)
 
 #         "queue": "owners,iric,normal",  # -p flag
 #         "job_name": "Default",  # --job-name
