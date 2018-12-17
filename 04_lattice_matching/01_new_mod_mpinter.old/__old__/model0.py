@@ -12,8 +12,27 @@ Author(s): Kevin Krempl, Raul Flores
 """
 
 #| - Import Modules
-import pickle
 import os
+import sys
+
+sys.path.append(
+    os.path.join(
+        os.environ["PROJ_fe_graph"],
+        "04_lattice_matching",
+        )
+    )
+
+from new_methods import (
+    create_heterostructure,
+    get_aligned_lattices,
+    get_matching_lattices,
+    )
+
+# #####################################
+
+
+
+import pickle
 
 import json
 

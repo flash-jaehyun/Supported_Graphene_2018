@@ -3,7 +3,7 @@
 """
 Create heterointerfaces between graphene and slab surface.
 
-
+TEST 181121 - RF
 I'm working on this in my personal branch - Raul Flores
 
 Todo:
@@ -22,18 +22,19 @@ sys.path.append(
         "04_lattice_matching",
         )
     )
-from new_methods import create_heterostructure
 
-# #############################################################################
+from new_methods import (
+    create_heterostructure,
+    # get_aligned_lattices,
+    # get_matching_lattices,
+    )
 
 import json
-import pickle
-
+from pymatgen.io.ase import AseAtomsAdaptor
 from ase import io
 from mpinterfaces.utils import slab_from_file
 
 from pymatgen.core.structure import Structure
-from pymatgen.io.ase import AseAtomsAdaptor
 #__|
 
 #| - Script Inputs
@@ -48,9 +49,9 @@ nlayers_2d = 1
 nlayers_substrate = 3
 
 # Lattice matching algorithm parameters
-max_area = 300
-max_mismatch = 0.05
-max_angle_diff = 0.05
+max_area = 200
+max_mismatch = 0.03
+max_angle_diff = 0.1
 r1r2_tol = 0.1
 #__|
 
@@ -58,7 +59,6 @@ r1r2_tol = 0.1
 surface_cut = json.load(open("facet.json", "r"))["facet"]
 bulk_structure = Structure.from_file(bulk_filename)
 slab_structure = slab_from_file([0, 0, 1], graphene_filename)
-
 
 # lower_mat_aligned, upper_mat_aligned = create_heterostructure(
 hetero_interfaces_i = create_heterostructure(
@@ -91,9 +91,4 @@ for i, sys_i in enumerate(hetero_interfaces_i):
             ),
         atoms,
         )
-
-pickle.dump(
-    hetero_interfaces_i,
-    open("heterostructures.pickle", "wb")
-    )
 #__|
