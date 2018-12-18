@@ -5,6 +5,8 @@ Author: Raul A. Flores
 
 # | - Import Modules
 import sys
+import copy
+from operator import itemgetter
 
 # import pickle
 import numpy as np
@@ -12,11 +14,6 @@ from pymatgen.core.structure import Structure
 from pymatgen.core.lattice import Lattice
 
 from mpinterfaces.transformations import (
-
-    # get_aligned_lattices,
-    # get_matching_lattices,
-    # Structure,
-
     generate_all_configs,
     get_mismatch,
     get_angle,
@@ -68,6 +65,8 @@ def create_heterostructure(
     max_mismatch=1,
     max_angle_diff=0.1,
     r1r2_tol=0.01,
+
+    max_return_structures=500,
     ):
     """
 
@@ -86,6 +85,9 @@ def create_heterostructure(
     max_angle_diff:
     r1r2_tol:
 
+    max_return_structures:
+        Max number of structures to retrun
+        Trying to control memory usage
     """
     #| - create_heterostructure ***********************************************
     # substrate_bulk = Structure.from_file(bulk_filename)
@@ -216,6 +218,7 @@ def get_aligned_lattices(
     max_mismatch=0.05,
     max_angle_diff=1,
     r1r2_tol=0.2,
+    max_return_structures=500,
     ):
     """
     given the 2 slab structures and the alignment paramters, return
@@ -294,11 +297,10 @@ def get_aligned_lattices(
         mat2d.modify_lattice(lmap)
 
         return(substrate, mat2d)
-    #__|
+        #__|
 
-
+    #| - __temp__
     # get the matching substrate and 2D material lattices
-    # uv_substrate, uv_mat2d = get_matching_lattices(
     all_matching_lattices = get_matching_lattices(
         slab_sub,
         slab_2d,
@@ -313,15 +315,95 @@ def get_aligned_lattices(
         print("no matching u and v, trying adjusting the parameters")
         return(None)
 
-    # sub_mat2d_list = []
+    print(20 * "o")
+    print(len(all_matching_lattices))
+    print(20 * "o")
+
+    if len(all_matching_lattices) > max_return_structures:
+        #| - Reducing number of systems
+        print("lasfkjskfksadjfkjskldc")
+
+        keep_sys_ind_list = []
+        throw_away_ind_list = []
+        for i_cnt, sys_i in enumerate(all_matching_lattices):
+
+            sys_i["min_mismatch"] = min(
+                sys_i["u_mismatch"],
+                sys_i["v_mismatch"],
+                )
+
+            sys_i["index"] = i_cnt
+
+            min_ind = np.argmin([np.linalg.norm(i) for i in sys_i["uv1"]])
+
+            ind_list = [0, 1]
+            ind_list.remove(min_ind)
+
+            uv_small = sys_i["uv1"][min_ind]
+            uv_large = sys_i["uv1"][ind_list[0]]
+
+            len_u_large = np.linalg.norm(uv_large)
+            len_u_small = np.linalg.norm(uv_small)
+            large_small_ratio = len_u_large / len_u_small
+
+            if large_small_ratio < 3.:
+                keep_sys_ind_list.append(i_cnt)
+            else:
+                throw_away_ind_list.append(i_cnt)
+
+        print("")
+        print("Filtering by ratio")
+        print(len(all_matching_lattices))
+
+        tmp = all_matching_lattices
+        all_matching_lattices = [tmp[i] for i in keep_sys_ind_list]
+        print(len(all_matching_lattices))
+
+        # ##########################################################
+        all_matching_lattices_1 = copy.deepcopy(all_matching_lattices)
+
+        sorted_mismatch_list = sorted(
+            all_matching_lattices_1,
+            key=itemgetter('min_mismatch'),
+            reverse=False)
+        mismatch_ordered_indices = [i["index"] for i in sorted_mismatch_list]
+
+        sorted_area_list = sorted(
+            all_matching_lattices_1,
+            key=itemgetter('min_area'),
+            reverse=False)
+        area_ordered_indices = [i["index"] for i in sorted_area_list]
+
+        # Only interested in the Nth * factor (N=max_return_structures) systems
+        # in terms of strain and min_area. We then take these two lists
+        # (of systems that have low strain and area) and we find the union of
+        # them The fudge factor is just a heuristic, since the number of
+        # entries after taking the union will be < max_return_structures
+
+        systems_to_keep_indices = list(set(
+            mismatch_ordered_indices[0:int(max_return_structures * 1.5)]
+                ) & set(
+            area_ordered_indices[0:int(max_return_structures * 1.5)])
+            )
+
+        print("")
+        print("tmptmptmp")
+        print(len(all_matching_lattices))
+        out = [all_matching_lattices[i] for i in systems_to_keep_indices]
+        print(len(out))
+
+        all_matching_lattices = out
+        #__|
+
+    #__|
+
+
     print("Creating heterointerfaces...")
     sub_mat2d_list_tmp = []
     for sys_i in all_matching_lattices:
         #| - body
         uv_substrate = sys_i["uv1"]
         uv_mat2d = sys_i["uv2"]
-
-        # uv_substrate, uv_mat2d = sys_i[0], sys_i[1]
 
         substrate, mat2d = process_sys(
             slab_sub,
@@ -338,81 +420,11 @@ def get_aligned_lattices(
                 }
             )
 
-        # COMBAK Delete this later
-        # sub_mat2d_list.append(
-        #     (substrate, mat2d)
-        #     )
         #__|
 
-    print("Done creating heterointerfaces!")
+    print("Done creating heterointerfaces!"); print("\n")
+
     return(sub_mat2d_list_tmp)
-
-    # return(sub_mat2d_list)
-    # return(substrate, mat2d)
-
-    #| - __old__
-    # substrate = Structure.from_sites(slab_sub)
-    # mat2d = Structure.from_sites(slab_2d)
-    # # map the intial slabs to the newly found matching lattices
-    # substrate_latt = Lattice(
-    #     np.array(
-    #         [
-    #             uv_substrate[0][:],
-    #             uv_substrate[1][:],
-    #             substrate.lattice.matrix[2, :]
-    #             ]
-    #         )
-    #     )
-    #
-    # # to avoid numerical issues with find_mapping
-    # mat2d_fake_c = mat2d.lattice.matrix[2, :] / np.linalg.norm(
-    #     mat2d.lattice.matrix[2, :]) * 5.0
-    # mat2d_latt = Lattice(
-    #     np.array(
-    #         [
-    #             uv_mat2d[0][:],
-    #             uv_mat2d[1][:],
-    #             mat2d_fake_c
-    #             ]
-    #         )
-    #     )
-    #
-    # mat2d_latt_fake = Lattice(
-    #     np.array(
-    #         [
-    #             mat2d.lattice.matrix[0, :],
-    #             mat2d.lattice.matrix[1, :],
-    #             mat2d_fake_c
-    #             ]
-    #         )
-    #     )
-    #
-    # _, __, scell = substrate.lattice.find_mapping(substrate_latt,
-    #                                               ltol=0.05,
-    #                                               atol=1)
-    # scell[2] = np.array([0, 0, 1])
-    # substrate.make_supercell(scell)
-    # _, __, scell = mat2d_latt_fake.find_mapping(mat2d_latt,
-    #                                             ltol=0.05,
-    #                                             atol=1)
-    # scell[2] = np.array([0, 0, 1])
-    # mat2d.make_supercell(scell)
-    # # modify the substrate lattice so that the 2d material can be
-    # # grafted on top of it
-    # lmap = Lattice(
-    #     np.array(
-    #         [
-    #             substrate.lattice.matrix[0, :],
-    #             substrate.lattice.matrix[1, :],
-    #             mat2d.lattice.matrix[2, :]
-    #             ]
-    #         )
-    #     )
-    #
-    # mat2d.modify_lattice(lmap)
-    #
-    # return(substrate, mat2d)
-    #__|
 
     #__| **********************************************************************
 
@@ -444,6 +456,7 @@ def get_matching_lattices(
     max_mismatch=0.01,
     max_angle_diff=1,
     r1r2_tol=0.02,
+    # max_return_structures=500,
     ):
     """
     computes a list of matching reduced lattice vectors that satify
@@ -494,9 +507,6 @@ def get_matching_lattices(
     #__|
 
     # | - Searching For-loop
-    # COMBAK Delete this  later
-    # found = []
-
     found_tmp = []  # TEMP
     print('searching ...')
     for r1r2 in r_list:
@@ -533,19 +543,7 @@ def get_matching_lattices(
                                 tm2_list[j][1] = tm2_list[j][0] + tm2_list[j][
                                     1]
 
-                        # COMBAK Delete this later
-                        # found.append(
-                        #     (
-                        #         uv1, uv2, min(area1, area2),
-                        #         u_mismatch,
-                        #         v_mismatch,
-                        #         angle_mismatch,
-                        #         tm1_list[i],
-                        #         tm2_list[j],
-                        #         )
-                        #     )
 
-                        # TEMP COMBAK | This will be the main object
                         found_tmp.append(
                             {
                                 "uv1": uv1,
@@ -559,7 +557,9 @@ def get_matching_lattices(
                                 }
                             )
 
-    print("searching complete!")
+
+
+    print("searching complete!"); print("\n")
     #__|
 
     if len(found_tmp) > 0:

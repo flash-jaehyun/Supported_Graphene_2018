@@ -1,7 +1,7 @@
 data_image0
-_cell_length_a       2.48811
-_cell_length_b       2.48811
-_cell_length_c       4.12088
+_cell_length_a       2.4659
+_cell_length_b       2.4659
+_cell_length_c       10
 _cell_angle_alpha    90
 _cell_angle_beta     90
 _cell_angle_gamma    120
@@ -22,5 +22,5 @@ loop_
   _atom_site_thermal_displace_type
   _atom_site_B_iso_or_equiv
   _atom_site_type_symbol
-  Co1      1.0000 0.33333  0.66667  0.75000  Biso   1.000  Co
-  Co2      1.0000 0.66667  0.33333  0.25000  Biso   1.000  Co
+  C1       1.0000 0.00000  0.00000  0.51000  Biso   1.000  C
+  C2       1.0000 0.66660  0.33330  0.51000  Biso   1.000  C

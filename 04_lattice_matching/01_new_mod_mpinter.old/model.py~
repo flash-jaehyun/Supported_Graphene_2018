@@ -48,10 +48,10 @@ nlayers_2d = 1
 nlayers_substrate = 3
 
 # Lattice matching algorithm parameters
-max_area = 250
-max_mismatch = 0.05
+max_area = 300
+max_mismatch = 0.1
 max_angle_diff = 0.05
-r1r2_tol = 0.05
+r1r2_tol = 0.1
 #__|
 
 #| - __main__
