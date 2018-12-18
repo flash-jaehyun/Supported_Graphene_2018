@@ -314,6 +314,7 @@ def get_aligned_lattices(
         return(None)
 
     # sub_mat2d_list = []
+    print("Creating heterointerfaces...")
     sub_mat2d_list_tmp = []
     for sys_i in all_matching_lattices:
         #| - body
@@ -343,6 +344,7 @@ def get_aligned_lattices(
         #     )
         #__|
 
+    print("Done creating heterointerfaces!")
     return(sub_mat2d_list_tmp)
 
     # return(sub_mat2d_list)

@@ -80,7 +80,6 @@ if not os.path.exists(out_dir):
     os.makedirs(out_dir)
 
 for i, sys_i in enumerate(hetero_interfaces_i):
-
     struct_i = sys_i["heterointerface"]
     atoms = AseAtomsAdaptor.get_atoms(struct_i)
 

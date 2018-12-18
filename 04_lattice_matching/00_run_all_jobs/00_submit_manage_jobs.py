@@ -32,11 +32,4 @@ for Job_i in Jobs_M.Job_list:
         "cpus": "4",  # --ntasks-per-node
         "memory": "4000",  # --mem-per-cpu
         "wall_time": "30",  # --time (720min -> 12hrs)
-
-#         "queue": "owners,iric,normal",  # -p flag
-#         "job_name": "Default",  # --job-name
-#         "priority": "normal",  # --qos
-        # "email": "flores12@stanford.edu",  # --mail-user
-#         "email": self.username + "@stanford.edu",  # --mail-user
-#         "email_mess": "FAIL",  # --mail-type
         })

@@ -8,23 +8,14 @@ Author: Raul A. Flores
 #| - Import Modules
 import os
 
+import pickle
+
 from dft_job_automat.job_analysis import DFT_Jobs_Analysis
 from dft_job_automat.job_types_classes.dft_methods import DFT_Methods
 
 from create_master_job_list import master_job_list
 #__|
 
-#| - Instantiate Classes
-dft_inst = DFT_Methods(
-    methods_to_run=[
-        "elec_energy",
-        "init_atoms",
-        "atoms_object",
-        "dft_params",
-        ],
-
-    DFT_code="QE",
-    )
 
 # | - Methods
 
@@ -32,64 +23,83 @@ def parse_info(path_i):
     """
     """
     #| - parse_info
-    from ase import io
+    print(path_i); print("\n")
 
-    files_i = os.listdir(path_i)
-
-    if "init_graphene.cif" in files_i:
-        atoms_init_graph_i = io.read(
+    pickle_file = pickle.load(
+        open(
             os.path.join(
                 path_i,
-                "init_graphene.cif",
-                )
-            )
-    else:
-        atoms_init_graph_i = None
-
-    if "init_support.cif" in files_i:
-        atoms_init_supp_i = io.read(
-            os.path.join(
-                path_i,
-                "init_support.cif",
-                )
-            )
-    else:
-        atoms_init_supp_i = None
-
-    structures_found = os.path.isdir(
-        os.path.join(
-            path_i,
-            "01_heterostructures",
+                "heterostructures.pickle",
+                ),
+            "rb",
             )
         )
 
-    if structures_found:
-        out_atoms_path_list = os.listdir(os.path.join(
-            path_i,
-            "01_heterostructures",
-            ))
-
-        out_atoms_list = []
-        for out_i in out_atoms_path_list:
-            out_atoms_i = io.read(
-                os.path.join(
-                    path_i,
-                    "01_heterostructures",
-                    out_i,
-                    )
-                )
-            out_atoms_list.append(out_atoms_i)
-    else:
-        out_atoms_list = None
-
     out_dict = {
-    #     "": ,
-        "init_graph_atoms": atoms_init_graph_i,
-        "init_support_atoms": atoms_init_supp_i,
-        "out_atoms": out_atoms_list,
+        "sys_data_i": pickle_file,
         }
 
     return(out_dict)
+
+
+    #| - __old__
+    # from ase import io
+    #
+    # files_i = os.listdir(path_i)
+    #
+    # if "init_graphene.cif" in files_i:
+    #     atoms_init_graph_i = io.read(
+    #         os.path.join(
+    #             path_i,
+    #             "init_graphene.cif",
+    #             )
+    #         )
+    # else:
+    #     atoms_init_graph_i = None
+    #
+    # if "init_support.cif" in files_i:
+    #     atoms_init_supp_i = io.read(
+    #         os.path.join(
+    #             path_i,
+    #             "init_support.cif",
+    #             )
+    #         )
+    # else:
+    #     atoms_init_supp_i = None
+    #
+    # structures_found = os.path.isdir(
+    #     os.path.join(
+    #         path_i,
+    #         "01_heterostructures",
+    #         )
+    #     )
+    #
+    # if structures_found:
+    #     out_atoms_path_list = os.listdir(os.path.join(
+    #         path_i,
+    #         "01_heterostructures",
+    #         ))
+    #
+    #     out_atoms_list = []
+    #     for out_i in out_atoms_path_list:
+    #         out_atoms_i = io.read(
+    #             os.path.join(
+    #                 path_i,
+    #                 "01_heterostructures",
+    #                 out_i,
+    #                 )
+    #             )
+    #         out_atoms_list.append(out_atoms_i)
+    # else:
+    #     out_atoms_list = None
+    #
+    # out_dict = {
+    #     "init_graph_atoms": atoms_init_graph_i,
+    #     "init_support_atoms": atoms_init_supp_i,
+    #     "out_atoms": out_atoms_list,
+    #     }
+    #__|
+
     #__|
 
 def parse_out_for_mismatch(path_i):
@@ -121,6 +131,19 @@ def parse_out_for_mismatch(path_i):
 
 #__|
 
+#| - Instantiate Classes
+
+# dft_inst = DFT_Methods(
+#     methods_to_run=[
+#         "elec_energy",
+#         "init_atoms",
+#         "atoms_object",
+#         "dft_params",
+#         ],
+#
+#     DFT_code="QE",
+#     )
+
 Jobs = DFT_Jobs_Analysis(
     indiv_job_dict_lst=master_job_list,
     working_dir="..",
@@ -131,7 +154,7 @@ Jobs = DFT_Jobs_Analysis(
     parse_all_revisions=False,
     methods_to_run=[
         parse_info,
-        parse_out_for_mismatch,
+        # parse_out_for_mismatch,
         ]
     )
 
