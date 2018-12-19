@@ -394,7 +394,6 @@ def get_aligned_lattices(
 
         all_matching_lattices = out
         #__|
-
     #__|
 
 

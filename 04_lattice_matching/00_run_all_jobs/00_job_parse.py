@@ -146,7 +146,7 @@ def parse_out_for_mismatch(path_i):
 
 Jobs = DFT_Jobs_Analysis(
     indiv_job_dict_lst=master_job_list,
-    working_dir="..",
+    working_dir=".",
     folders_exist=True,
     load_dataframe=False,
     # job_type_class=dft_inst,
