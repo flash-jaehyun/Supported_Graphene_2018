@@ -1,0 +1,584 @@
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 2.45655966852 | 2.45655966852
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 2.45655966852 | diff: -1.80344033148
+Graphene: 4.26 | Slab: 4.91311933704 | diff: 0.65311933704
+Graphene: 4.26 | Slab: 7.36967900556 | diff: 3.10967900556
+Graphene: 4.26 | Slab: 9.82623867408 | diff: 5.56623867408
+Graphene: 8.52 | Slab: 2.45655966852 | diff: -6.06344033148
+Graphene: 8.52 | Slab: 4.91311933704 | diff: -3.60688066296
+Graphene: 8.52 | Slab: 7.36967900556 | diff: -1.15032099444
+Graphene: 8.52 | Slab: 9.82623867408 | diff: 1.30623867408
+Graphene: 12.78 | Slab: 2.45655966852 | diff: -10.3234403315
+Graphene: 12.78 | Slab: 4.91311933704 | diff: -7.86688066296
+Graphene: 12.78 | Slab: 7.36967900556 | diff: -5.41032099444
+Graphene: 12.78 | Slab: 9.82623867408 | diff: -2.95376132592
+Graphene: 17.04 | Slab: 2.45655966852 | diff: -14.5834403315
+Graphene: 17.04 | Slab: 4.91311933704 | diff: -12.126880663
+Graphene: 17.04 | Slab: 7.36967900556 | diff: -9.67032099444
+Graphene: 17.04 | Slab: 9.82623867408 | diff: -7.21376132592
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 4.91311933704 | 4.91311933704
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 4.91311933704 | diff: 0.65311933704
+Graphene: 4.26 | Slab: 9.82623867408 | diff: 5.56623867408
+Graphene: 4.26 | Slab: 14.7393580111 | diff: 10.4793580111
+Graphene: 4.26 | Slab: 19.6524773482 | diff: 15.3924773482
+Graphene: 8.52 | Slab: 4.91311933704 | diff: -3.60688066296
+Graphene: 8.52 | Slab: 9.82623867408 | diff: 1.30623867408
+Graphene: 8.52 | Slab: 14.7393580111 | diff: 6.21935801112
+Graphene: 8.52 | Slab: 19.6524773482 | diff: 11.1324773482
+Graphene: 12.78 | Slab: 4.91311933704 | diff: -7.86688066296
+Graphene: 12.78 | Slab: 9.82623867408 | diff: -2.95376132592
+Graphene: 12.78 | Slab: 14.7393580111 | diff: 1.95935801112
+Graphene: 12.78 | Slab: 19.6524773482 | diff: 6.87247734816
+Graphene: 17.04 | Slab: 4.91311933704 | diff: -12.126880663
+Graphene: 17.04 | Slab: 9.82623867408 | diff: -7.21376132592
+Graphene: 17.04 | Slab: 14.7393580111 | diff: -2.30064198888
+Graphene: 17.04 | Slab: 19.6524773482 | diff: 2.61247734816
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 7.36967900556 | 7.36967900556
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 7.36967900556 | diff: 3.10967900556
+Graphene: 4.26 | Slab: 14.7393580111 | diff: 10.4793580111
+Graphene: 4.26 | Slab: 22.1090370167 | diff: 17.8490370167
+Graphene: 4.26 | Slab: 29.4787160222 | diff: 25.2187160222
+Graphene: 8.52 | Slab: 7.36967900556 | diff: -1.15032099444
+Graphene: 8.52 | Slab: 14.7393580111 | diff: 6.21935801112
+Graphene: 8.52 | Slab: 22.1090370167 | diff: 13.5890370167
+Graphene: 8.52 | Slab: 29.4787160222 | diff: 20.9587160222
+Graphene: 12.78 | Slab: 7.36967900556 | diff: -5.41032099444
+Graphene: 12.78 | Slab: 14.7393580111 | diff: 1.95935801112
+Graphene: 12.78 | Slab: 22.1090370167 | diff: 9.32903701668
+Graphene: 12.78 | Slab: 29.4787160222 | diff: 16.6987160222
+Graphene: 17.04 | Slab: 7.36967900556 | diff: -9.67032099444
+Graphene: 17.04 | Slab: 14.7393580111 | diff: -2.30064198888
+Graphene: 17.04 | Slab: 22.1090370167 | diff: 5.06903701668
+Graphene: 17.04 | Slab: 29.4787160222 | diff: 12.4387160222
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 9.82623867408 | 9.82623867408
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 9.82623867408 | diff: 5.56623867408
+Graphene: 4.26 | Slab: 19.6524773482 | diff: 15.3924773482
+Graphene: 4.26 | Slab: 29.4787160222 | diff: 25.2187160222
+Graphene: 4.26 | Slab: 39.3049546963 | diff: 35.0449546963
+Graphene: 8.52 | Slab: 9.82623867408 | diff: 1.30623867408
+Graphene: 8.52 | Slab: 19.6524773482 | diff: 11.1324773482
+Graphene: 8.52 | Slab: 29.4787160222 | diff: 20.9587160222
+Graphene: 8.52 | Slab: 39.3049546963 | diff: 30.7849546963
+Graphene: 12.78 | Slab: 9.82623867408 | diff: -2.95376132592
+Graphene: 12.78 | Slab: 19.6524773482 | diff: 6.87247734816
+Graphene: 12.78 | Slab: 29.4787160222 | diff: 16.6987160222
+Graphene: 12.78 | Slab: 39.3049546963 | diff: 26.5249546963
+Graphene: 17.04 | Slab: 9.82623867408 | diff: -7.21376132592
+Graphene: 17.04 | Slab: 19.6524773482 | diff: 2.61247734816
+Graphene: 17.04 | Slab: 29.4787160222 | diff: 12.4387160222
+Graphene: 17.04 | Slab: 39.3049546963 | diff: 22.2649546963
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 12.2827983426 | 12.2827983426
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 12.2827983426 | diff: 8.0227983426
+Graphene: 4.26 | Slab: 24.5655966852 | diff: 20.3055966852
+Graphene: 4.26 | Slab: 36.8483950278 | diff: 32.5883950278
+Graphene: 4.26 | Slab: 49.1311933704 | diff: 44.8711933704
+Graphene: 8.52 | Slab: 12.2827983426 | diff: 3.7627983426
+Graphene: 8.52 | Slab: 24.5655966852 | diff: 16.0455966852
+Graphene: 8.52 | Slab: 36.8483950278 | diff: 28.3283950278
+Graphene: 8.52 | Slab: 49.1311933704 | diff: 40.6111933704
+Graphene: 12.78 | Slab: 12.2827983426 | diff: -0.497201657399
+Graphene: 12.78 | Slab: 24.5655966852 | diff: 11.7855966852
+Graphene: 12.78 | Slab: 36.8483950278 | diff: 24.0683950278
+Graphene: 12.78 | Slab: 49.1311933704 | diff: 36.3511933704
+Graphene: 17.04 | Slab: 12.2827983426 | diff: -4.7572016574
+Graphene: 17.04 | Slab: 24.5655966852 | diff: 7.5255966852
+Graphene: 17.04 | Slab: 36.8483950278 | diff: 19.8083950278
+Graphene: 17.04 | Slab: 49.1311933704 | diff: 32.0911933704
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 14.7393580111 | 14.7393580111
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 14.7393580111 | diff: 10.4793580111
+Graphene: 4.26 | Slab: 29.4787160222 | diff: 25.2187160222
+Graphene: 4.26 | Slab: 44.2180740334 | diff: 39.9580740334
+Graphene: 4.26 | Slab: 58.9574320445 | diff: 54.6974320445
+Graphene: 8.52 | Slab: 14.7393580111 | diff: 6.21935801112
+Graphene: 8.52 | Slab: 29.4787160222 | diff: 20.9587160222
+Graphene: 8.52 | Slab: 44.2180740334 | diff: 35.6980740334
+Graphene: 8.52 | Slab: 58.9574320445 | diff: 50.4374320445
+Graphene: 12.78 | Slab: 14.7393580111 | diff: 1.95935801112
+Graphene: 12.78 | Slab: 29.4787160222 | diff: 16.6987160222
+Graphene: 12.78 | Slab: 44.2180740334 | diff: 31.4380740334
+Graphene: 12.78 | Slab: 58.9574320445 | diff: 46.1774320445
+Graphene: 17.04 | Slab: 14.7393580111 | diff: -2.30064198888
+Graphene: 17.04 | Slab: 29.4787160222 | diff: 12.4387160222
+Graphene: 17.04 | Slab: 44.2180740334 | diff: 27.1780740334
+Graphene: 17.04 | Slab: 58.9574320445 | diff: 41.9174320445
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 17.1959176796 | 17.1959176796
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 17.1959176796 | diff: 12.9359176796
+Graphene: 4.26 | Slab: 34.3918353593 | diff: 30.1318353593
+Graphene: 4.26 | Slab: 51.5877530389 | diff: 47.3277530389
+Graphene: 4.26 | Slab: 68.7836707186 | diff: 64.5236707186
+Graphene: 8.52 | Slab: 17.1959176796 | diff: 8.67591767964
+Graphene: 8.52 | Slab: 34.3918353593 | diff: 25.8718353593
+Graphene: 8.52 | Slab: 51.5877530389 | diff: 43.0677530389
+Graphene: 8.52 | Slab: 68.7836707186 | diff: 60.2636707186
+Graphene: 12.78 | Slab: 17.1959176796 | diff: 4.41591767964
+Graphene: 12.78 | Slab: 34.3918353593 | diff: 21.6118353593
+Graphene: 12.78 | Slab: 51.5877530389 | diff: 38.8077530389
+Graphene: 12.78 | Slab: 68.7836707186 | diff: 56.0036707186
+Graphene: 17.04 | Slab: 17.1959176796 | diff: 0.155917679641
+Graphene: 17.04 | Slab: 34.3918353593 | diff: 17.3518353593
+Graphene: 17.04 | Slab: 51.5877530389 | diff: 34.5477530389
+Graphene: 17.04 | Slab: 68.7836707186 | diff: 51.7436707186
+
+_____________________________________
+Starting fcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 19.6524773482 | 19.6524773482
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 19.6524773482 | diff: 15.3924773482
+Graphene: 4.26 | Slab: 39.3049546963 | diff: 35.0449546963
+Graphene: 4.26 | Slab: 58.9574320445 | diff: 54.6974320445
+Graphene: 4.26 | Slab: 78.6099093926 | diff: 74.3499093926
+Graphene: 8.52 | Slab: 19.6524773482 | diff: 11.1324773482
+Graphene: 8.52 | Slab: 39.3049546963 | diff: 30.7849546963
+Graphene: 8.52 | Slab: 58.9574320445 | diff: 50.4374320445
+Graphene: 8.52 | Slab: 78.6099093926 | diff: 70.0899093926
+Graphene: 12.78 | Slab: 19.6524773482 | diff: 6.87247734816
+Graphene: 12.78 | Slab: 39.3049546963 | diff: 26.5249546963
+Graphene: 12.78 | Slab: 58.9574320445 | diff: 46.1774320445
+Graphene: 12.78 | Slab: 78.6099093926 | diff: 65.8299093926
+Graphene: 17.04 | Slab: 19.6524773482 | diff: 2.61247734816
+Graphene: 17.04 | Slab: 39.3049546963 | diff: 22.2649546963
+Graphene: 17.04 | Slab: 58.9574320445 | diff: 41.9174320445
+Graphene: 17.04 | Slab: 78.6099093926 | diff: 61.5699093926
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 3.4741 | 2.45655966852
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 6.9482 | 4.91311933704
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 10.4223 | 7.36967900556
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 13.8964 | 9.82623867408
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 17.3705 | 12.2827983426
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 20.8446 | 14.7393580111
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 24.3187 | 17.1959176796
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-110 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 27.7928 | 19.6524773482
+Orthogonal lattice
+Rectangular cell - Not as good
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 2.45655966852 | 2.45655966852
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 4.91311933704 | 4.91311933704
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 7.36967900556 | 7.36967900556
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 9.82623867408 | 9.82623867408
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 12.2827983426 | 12.2827983426
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 14.7393580111 | 14.7393580111
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 17.1959176796 | 17.1959176796
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting fcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 19.6524773482 | 19.6524773482
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 2.7576 | 2.7576
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 2.7576 | diff: -1.5024
+Graphene: 4.26 | Slab: 5.5152 | diff: 1.2552
+Graphene: 4.26 | Slab: 8.2728 | diff: 4.0128
+Graphene: 4.26 | Slab: 11.0304 | diff: 6.7704
+Graphene: 8.52 | Slab: 2.7576 | diff: -5.7624
+Graphene: 8.52 | Slab: 5.5152 | diff: -3.0048
+Graphene: 8.52 | Slab: 8.2728 | diff: -0.2472
+Graphene: 8.52 | Slab: 11.0304 | diff: 2.5104
+Graphene: 12.78 | Slab: 2.7576 | diff: -10.0224
+Graphene: 12.78 | Slab: 5.5152 | diff: -7.2648
+Graphene: 12.78 | Slab: 8.2728 | diff: -4.5072
+Graphene: 12.78 | Slab: 11.0304 | diff: -1.7496
+Graphene: 17.04 | Slab: 2.7576 | diff: -14.2824
+Graphene: 17.04 | Slab: 5.5152 | diff: -11.5248
+Graphene: 17.04 | Slab: 8.2728 | diff: -8.7672
+Graphene: 17.04 | Slab: 11.0304 | diff: -6.0096
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 5.5152 | 5.5152
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 5.5152 | diff: 1.2552
+Graphene: 4.26 | Slab: 11.0304 | diff: 6.7704
+Graphene: 4.26 | Slab: 16.5456 | diff: 12.2856
+Graphene: 4.26 | Slab: 22.0608 | diff: 17.8008
+Graphene: 8.52 | Slab: 5.5152 | diff: -3.0048
+Graphene: 8.52 | Slab: 11.0304 | diff: 2.5104
+Graphene: 8.52 | Slab: 16.5456 | diff: 8.0256
+Graphene: 8.52 | Slab: 22.0608 | diff: 13.5408
+Graphene: 12.78 | Slab: 5.5152 | diff: -7.2648
+Graphene: 12.78 | Slab: 11.0304 | diff: -1.7496
+Graphene: 12.78 | Slab: 16.5456 | diff: 3.7656
+Graphene: 12.78 | Slab: 22.0608 | diff: 9.2808
+Graphene: 17.04 | Slab: 5.5152 | diff: -11.5248
+Graphene: 17.04 | Slab: 11.0304 | diff: -6.0096
+Graphene: 17.04 | Slab: 16.5456 | diff: -0.4944
+Graphene: 17.04 | Slab: 22.0608 | diff: 5.0208
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 8.2728 | 8.2728
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 8.2728 | diff: 4.0128
+Graphene: 4.26 | Slab: 16.5456 | diff: 12.2856
+Graphene: 4.26 | Slab: 24.8184 | diff: 20.5584
+Graphene: 4.26 | Slab: 33.0912 | diff: 28.8312
+Graphene: 8.52 | Slab: 8.2728 | diff: -0.2472
+Graphene: 8.52 | Slab: 16.5456 | diff: 8.0256
+Graphene: 8.52 | Slab: 24.8184 | diff: 16.2984
+Graphene: 8.52 | Slab: 33.0912 | diff: 24.5712
+Graphene: 12.78 | Slab: 8.2728 | diff: -4.5072
+Graphene: 12.78 | Slab: 16.5456 | diff: 3.7656
+Graphene: 12.78 | Slab: 24.8184 | diff: 12.0384
+Graphene: 12.78 | Slab: 33.0912 | diff: 20.3112
+Graphene: 17.04 | Slab: 8.2728 | diff: -8.7672
+Graphene: 17.04 | Slab: 16.5456 | diff: -0.4944
+Graphene: 17.04 | Slab: 24.8184 | diff: 7.7784
+Graphene: 17.04 | Slab: 33.0912 | diff: 16.0512
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 11.0304 | 11.0304
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 11.0304 | diff: 6.7704
+Graphene: 4.26 | Slab: 22.0608 | diff: 17.8008
+Graphene: 4.26 | Slab: 33.0912 | diff: 28.8312
+Graphene: 4.26 | Slab: 44.1216 | diff: 39.8616
+Graphene: 8.52 | Slab: 11.0304 | diff: 2.5104
+Graphene: 8.52 | Slab: 22.0608 | diff: 13.5408
+Graphene: 8.52 | Slab: 33.0912 | diff: 24.5712
+Graphene: 8.52 | Slab: 44.1216 | diff: 35.6016
+Graphene: 12.78 | Slab: 11.0304 | diff: -1.7496
+Graphene: 12.78 | Slab: 22.0608 | diff: 9.2808
+Graphene: 12.78 | Slab: 33.0912 | diff: 20.3112
+Graphene: 12.78 | Slab: 44.1216 | diff: 31.3416
+Graphene: 17.04 | Slab: 11.0304 | diff: -6.0096
+Graphene: 17.04 | Slab: 22.0608 | diff: 5.0208
+Graphene: 17.04 | Slab: 33.0912 | diff: 16.0512
+Graphene: 17.04 | Slab: 44.1216 | diff: 27.0816
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 13.788 | 13.788
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 13.788 | diff: 9.528
+Graphene: 4.26 | Slab: 27.576 | diff: 23.316
+Graphene: 4.26 | Slab: 41.364 | diff: 37.104
+Graphene: 4.26 | Slab: 55.152 | diff: 50.892
+Graphene: 8.52 | Slab: 13.788 | diff: 5.268
+Graphene: 8.52 | Slab: 27.576 | diff: 19.056
+Graphene: 8.52 | Slab: 41.364 | diff: 32.844
+Graphene: 8.52 | Slab: 55.152 | diff: 46.632
+Graphene: 12.78 | Slab: 13.788 | diff: 1.008
+Graphene: 12.78 | Slab: 27.576 | diff: 14.796
+Graphene: 12.78 | Slab: 41.364 | diff: 28.584
+Graphene: 12.78 | Slab: 55.152 | diff: 42.372
+Graphene: 17.04 | Slab: 13.788 | diff: -3.252
+Graphene: 17.04 | Slab: 27.576 | diff: 10.536
+Graphene: 17.04 | Slab: 41.364 | diff: 24.324
+Graphene: 17.04 | Slab: 55.152 | diff: 38.112
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 16.5456 | 16.5456
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 16.5456 | diff: 12.2856
+Graphene: 4.26 | Slab: 33.0912 | diff: 28.8312
+Graphene: 4.26 | Slab: 49.6368 | diff: 45.3768
+Graphene: 4.26 | Slab: 66.1824 | diff: 61.9224
+Graphene: 8.52 | Slab: 16.5456 | diff: 8.0256
+Graphene: 8.52 | Slab: 33.0912 | diff: 24.5712
+Graphene: 8.52 | Slab: 49.6368 | diff: 41.1168
+Graphene: 8.52 | Slab: 66.1824 | diff: 57.6624
+Graphene: 12.78 | Slab: 16.5456 | diff: 3.7656
+Graphene: 12.78 | Slab: 33.0912 | diff: 20.3112
+Graphene: 12.78 | Slab: 49.6368 | diff: 36.8568
+Graphene: 12.78 | Slab: 66.1824 | diff: 53.4024
+Graphene: 17.04 | Slab: 16.5456 | diff: -0.4944
+Graphene: 17.04 | Slab: 33.0912 | diff: 16.0512
+Graphene: 17.04 | Slab: 49.6368 | diff: 32.5968
+Graphene: 17.04 | Slab: 66.1824 | diff: 49.1424
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 19.3032 | 19.3032
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 19.3032 | diff: 15.0432
+Graphene: 4.26 | Slab: 38.6064 | diff: 34.3464
+Graphene: 4.26 | Slab: 57.9096 | diff: 53.6496
+Graphene: 4.26 | Slab: 77.2128 | diff: 72.9528
+Graphene: 8.52 | Slab: 19.3032 | diff: 10.7832
+Graphene: 8.52 | Slab: 38.6064 | diff: 30.0864
+Graphene: 8.52 | Slab: 57.9096 | diff: 49.3896
+Graphene: 8.52 | Slab: 77.2128 | diff: 68.6928
+Graphene: 12.78 | Slab: 19.3032 | diff: 6.5232
+Graphene: 12.78 | Slab: 38.6064 | diff: 25.8264
+Graphene: 12.78 | Slab: 57.9096 | diff: 45.1296
+Graphene: 12.78 | Slab: 77.2128 | diff: 64.4328
+Graphene: 17.04 | Slab: 19.3032 | diff: 2.2632
+Graphene: 17.04 | Slab: 38.6064 | diff: 21.5664
+Graphene: 17.04 | Slab: 57.9096 | diff: 40.8696
+Graphene: 17.04 | Slab: 77.2128 | diff: 60.1728
+
+_____________________________________
+Starting bcc-100 structure
+Angle between lattice vectors: 90.0
+Lattice vector magnitudes: 22.0608 | 22.0608
+Orthogonal lattice
+cubic orthogonl cell - Good!
+Graphene: 4.26 | Slab: 22.0608 | diff: 17.8008
+Graphene: 4.26 | Slab: 44.1216 | diff: 39.8616
+Graphene: 4.26 | Slab: 66.1824 | diff: 61.9224
+Graphene: 4.26 | Slab: 88.2432 | diff: 83.9832
+Graphene: 8.52 | Slab: 22.0608 | diff: 13.5408
+Graphene: 8.52 | Slab: 44.1216 | diff: 35.6016
+Graphene: 8.52 | Slab: 66.1824 | diff: 57.6624
+Graphene: 8.52 | Slab: 88.2432 | diff: 79.7232
+Graphene: 12.78 | Slab: 22.0608 | diff: 9.2808
+Graphene: 12.78 | Slab: 44.1216 | diff: 31.3416
+Graphene: 12.78 | Slab: 66.1824 | diff: 53.4024
+Graphene: 12.78 | Slab: 88.2432 | diff: 75.4632
+Graphene: 17.04 | Slab: 22.0608 | diff: 5.0208
+Graphene: 17.04 | Slab: 44.1216 | diff: 27.0816
+Graphene: 17.04 | Slab: 66.1824 | diff: 49.1424
+Graphene: 17.04 | Slab: 88.2432 | diff: 71.2032
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 2.7576 | 2.38815165348
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 5.5152 | 4.77630330695
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 8.2728 | 7.16445496043
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 11.0304 | 9.5526066139
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 13.788 | 11.9407582674
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 16.5456 | 14.3289099209
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 19.3032 | 16.7170615743
+Nothing to do here
+
+_____________________________________
+Starting bcc-110 structure
+Angle between lattice vectors: 54.7356103172
+Lattice vector magnitudes: 22.0608 | 19.1052132278
+Nothing to do here
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 3.8998353196 | 3.8998353196
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 7.7996706392 | 7.7996706392
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 11.6995059588 | 11.6995059588
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 15.5993412784 | 15.5993412784
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 19.499176598 | 19.499176598
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 23.3990119176 | 23.3990119176
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 27.2988472372 | 27.2988472372
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
+Starting bcc-111 structure
+Angle between lattice vectors: 60.0
+Lattice vector magnitudes: 31.1986825568 | 31.1986825568
+60 degree lattice
+Perfect! Equal sides
+
+_____________________________________
