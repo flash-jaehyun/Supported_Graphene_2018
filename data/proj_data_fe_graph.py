@@ -14,24 +14,43 @@ from statistics import mean
 #| - Formatting ***************************************************************
 
 #| - Color Scheme
-
-system_color_map = {
-    "Fe_slab_False_nan": "#b94663",
-    "Fe_slab_True_nan": "#b94663",
-
-    "N_graph_False_nan": "#000000",
-    "N_graph_True_nan": "#000000",
-
-    "N_graph_Fe_False_C-trifold": "#6fac5d",
-    "N_graph_Fe_False_N-trifold": "#6fac5d",
-
-    "graph_Fe_False_nan": "#bc7d39",
-    "graph_Fe_True_nan": "#bc7d39",
-
-    "graphene_False_nan": "#697ed5",
-    "graphene_True_nan": "#697ed5",
+# Fe_slab_False_None_nan
+system_color_map_tmp = {
+    "N_graph_Fe": "#6fac5d",
+    "N_graph": "#000000",
+    "graph_Fe": "#bc7d39",
+    "graphene": "#697ed5",
+    "Fe_slab": "#b94663",
     }
 
+# system_color_map = {
+#     "Fe_slab_False_nan": "#b94663",
+#     "Fe_slab_True_nan": "#b94663",
+#     "N_graph_False_nan": "#000000",
+#     "N_graph_True_nan": "#000000",
+#     "N_graph_Fe_False_C-trifold": "#6fac5d",
+#     "N_graph_Fe_False_N-trifold": "#6fac5d",
+#     "graph_Fe_False_nan": "#bc7d39",
+#     "graph_Fe_True_nan": "#bc7d39",
+#     "graphene_False_nan": "#697ed5",
+#     "graphene_True_nan": "#697ed5",
+#     }
+
+# Changed the key name a bit to include "graph_site" property
+system_color_map = {
+    "Fe_slab_False_None_nan": "#b94663",
+    "Fe_slab_True_bridge_nan": "#b94663",
+    "N_graph_False_ring-center_nan": "#000000",
+    "N_graph_True_None_nan": "#000000",
+    "N_graph_Fe_False_None_C-trifold": "#6fac5d",
+    "N_graph_Fe_False_None_N-trifold": "#6fac5d",
+    "graph_Fe_False_None_nan": "#bc7d39",
+    "graph_Fe_True_None_nan": "#bc7d39",
+    "graphene_False_None_nan": "#697ed5",
+    "graphene_True_None_nan": "#697ed5",
+    }
+
+#| - __temp__
 # Pt_NaN_1
 # graphene_NaN_1
 # Fe3C/graphene_NaN_1
@@ -65,7 +84,7 @@ system_color_map = {
 #     "Fe3C/N-graphene_NaN_2": "#90f473",
 #     "Fe3C/N-graphene_NaN_3": "#90f473",
 #     }
-
+#__|
 
 system_color_map_vegge = {
     "Pt_NaN_1": "#ff0000",
@@ -82,7 +101,6 @@ system_color_map_vegge = {
     "Fe3C/N-graphene_NaN_2": "#90f473",
     "Fe3C/N-graphene_NaN_3": "#90f473",
     }
-
 
 #__|
 
