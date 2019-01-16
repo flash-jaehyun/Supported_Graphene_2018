@@ -801,8 +801,6 @@ dft_latt_const_dict = {
 
     #| - Tungsten
     "W": {
-
-        # FACE‐CENTERED‐CUBIC TUNGSTEN FILMS OBTAINED BY
         "fcc": {
             "a": None,
             },
