@@ -665,6 +665,24 @@ exp_latt_const_dict = {
 
 dft_latt_const_dict = {
 
+    #| - Iron
+    "Fe": {
+
+        "fcc": {
+            "a": 3.4741,  # kpts: (888) | RF
+            },
+        # Most stable <--------------------------------------------------------
+        "bcc": {
+            "a": 2.8482,  # From @Kevin_Krempl | 190114
+            },
+
+        # "hcp": {
+        #     "a": None,
+        #     "c": None,
+        #     },
+        },
+    #__|
+
     #| - Nickel
     "Ni": {
         # Most stable <--------------------------------------------------------

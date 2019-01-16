@@ -29,71 +29,74 @@ from pymatgen.io.ase import AseAtomsAdaptor
 #__|
 
 
+elem_to_run = ["Fe"]
+
 master_job_list = []
 
 atoms_list = []
 for metal_i, cryst_dict_i in dft_latt_const_dict.items():
-    for cryst_j, latt_params_j in cryst_dict_i.items():
+    if metal_i in elem_to_run:
+        for cryst_j, latt_params_j in cryst_dict_i.items():
 
-        #| - Testing for the completness of the latt_const dict
-        make_atoms = True
-        if len(list(latt_params_j.keys())) == 1:
-            if "a" in list(latt_params_j.keys()):
-                if latt_params_j.get("a", None) is None:
-                    make_atoms = False
-
-        if len(list(latt_params_j.keys())) == 2:
-            if "a" in list(latt_params_j.keys()):
-                 if "c" in list(latt_params_j.keys()):
+            #| - Testing for the completness of the latt_const dict
+            make_atoms = True
+            if len(list(latt_params_j.keys())) == 1:
+                if "a" in list(latt_params_j.keys()):
                     if latt_params_j.get("a", None) is None:
                         make_atoms = False
-                    if latt_params_j.get("c", None) is None:
-                        make_atoms = False
-        #__|
 
-        if make_atoms:
-            atoms_i = build.bulk(
-                metal_i,
-                crystalstructure=cryst_j,
-                a=latt_params_j.get("a", None),
-                c=latt_params_j.get("c", None),
-                covera=None,
-                u=None,
-                orthorhombic=False,
-                cubic=False,
-                )
+            if len(list(latt_params_j.keys())) == 2:
+                if "a" in list(latt_params_j.keys()):
+                     if "c" in list(latt_params_j.keys()):
+                        if latt_params_j.get("a", None) is None:
+                            make_atoms = False
+                        if latt_params_j.get("c", None) is None:
+                            make_atoms = False
+            #__|
 
-            structure_i = AseAtomsAdaptor.get_structure(atoms_i)
-            analyzer = SpacegroupAnalyzer(structure_i)
-            struct_conv_std_i = analyzer.get_conventional_standard_structure()
-            atoms_i = AseAtomsAdaptor.get_atoms(struct_conv_std_i)
-
-            atoms_list.append(atoms_i)
-
-            for facet in surface_facets:
-
-                job_dict_i = {}
-
-                job_dict_i["metal"] = metal_i
-                job_dict_i["crystal"] = cryst_j
-                job_dict_i["atoms"] = atoms_i
-                job_dict_i["facet"] = facet
-
-
-                "".join(list(map(str, facet)))
-
-                path_i = "/".join([
-                    "data",
-                    str(job_dict_i.get("metal", "nan")),
-                    str(job_dict_i.get("crystal", "nan")),
-                    "".join(list(map(str, facet))),
-                    # str(job_dict_i.get("facet", "nan")),
-                    ])
-
-
-                master_job_list.append(
-                    {
-                        "properties": job_dict_i,
-                        "path": path_i,
-                        }
+            if make_atoms:
+                atoms_i = build.bulk(
+                    metal_i,
+                    crystalstructure=cryst_j,
+                    a=latt_params_j.get("a", None),
+                    c=latt_params_j.get("c", None),
+                    covera=None,
+                    u=None,
+                    orthorhombic=False,
+                    cubic=False,
                     )
+
+                structure_i = AseAtomsAdaptor.get_structure(atoms_i)
+                analyzer = SpacegroupAnalyzer(structure_i)
+                struct_conv_std_i = analyzer.get_conventional_standard_structure()
+                atoms_i = AseAtomsAdaptor.get_atoms(struct_conv_std_i)
+
+                atoms_list.append(atoms_i)
+
+                for facet in surface_facets:
+
+                    job_dict_i = {}
+
+                    job_dict_i["metal"] = metal_i
+                    job_dict_i["crystal"] = cryst_j
+                    job_dict_i["atoms"] = atoms_i
+                    job_dict_i["facet"] = facet
+
+
+                    "".join(list(map(str, facet)))
+
+                    path_i = "/".join([
+                        "data",
+                        str(job_dict_i.get("metal", "nan")),
+                        str(job_dict_i.get("crystal", "nan")),
+                        "".join(list(map(str, facet))),
+                        # str(job_dict_i.get("facet", "nan")),
+                        ])
+
+
+                    master_job_list.append(
+                        {
+                            "properties": job_dict_i,
+                            "path": path_i,
+                            }
+                        )
