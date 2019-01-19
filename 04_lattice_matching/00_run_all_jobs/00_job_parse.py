@@ -132,7 +132,6 @@ def parse_out_for_mismatch(path_i):
 #__|
 
 #| - Instantiate Classes
-
 # dft_inst = DFT_Methods(
 #     methods_to_run=[
 #         "elec_energy",
