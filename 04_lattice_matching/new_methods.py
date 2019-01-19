@@ -321,18 +321,73 @@ def get_aligned_lattices(
 
     if len(all_matching_lattices) > max_return_structures:
         #| - Reducing number of systems
-        print("lasfkjskfksadjfkjskldc")
 
-        keep_sys_ind_list = []
-        throw_away_ind_list = []
+        #| - TEMP
         for i_cnt, sys_i in enumerate(all_matching_lattices):
-
             sys_i["min_mismatch"] = min(
                 sys_i["u_mismatch"],
                 sys_i["v_mismatch"],
                 )
 
             sys_i["index"] = i_cnt
+        #__|
+
+        # ##########################################################
+
+        #| - Filtering by area and mismatch
+        all_matching_lattices_1 = copy.deepcopy(all_matching_lattices)
+
+        sorted_mismatch_list = sorted(
+            all_matching_lattices_1,
+            key=itemgetter('min_mismatch'),
+            reverse=False)
+        mismatch_ordered_indices = [i["index"] for i in sorted_mismatch_list]
+
+        sorted_area_list = sorted(
+            all_matching_lattices_1,
+            key=itemgetter('min_area'),
+            reverse=False)
+        area_ordered_indices = [i["index"] for i in sorted_area_list]
+
+        # Only interested in the Nth * factor (N=max_return_structures) systems
+        # in terms of strain and min_area. We then take these two lists
+        # (of systems that have low strain and area) and we find the union of
+        # them The fudge factor is just a heuristic, since the number of
+        # entries after taking the union will be < max_return_structures
+
+        systems_to_keep_indices = list(set(
+            mismatch_ordered_indices[0:int(max_return_structures * 1.)]
+                ) & set(
+            area_ordered_indices[0:int(max_return_structures * 1.)])
+
+            # mismatch_ordered_indices[0:int(max_return_structures * 1.5)]
+            #     ) & set(
+            # area_ordered_indices[0:int(max_return_structures * 1.5)])
+            )
+
+        print("")
+        print("systems_to_keep_indices")
+        print(len(systems_to_keep_indices))
+
+
+        print("")
+        print("tmptmptmp")
+        print(len(all_matching_lattices))
+
+        print("")
+        for i in systems_to_keep_indices:
+            print(i)
+            # print(all_matching_lattices[i])
+
+        out = [all_matching_lattices[i] for i in systems_to_keep_indices]
+        print(len(out))
+        #__|
+
+
+        #| - Filtering by ratio of side lengths
+        keep_sys_ind_list = []
+        throw_away_ind_list = []
+        for i_cnt, sys_i in enumerate(all_matching_lattices):
 
             min_ind = np.argmin([np.linalg.norm(i) for i in sys_i["uv1"]])
 
@@ -356,46 +411,15 @@ def get_aligned_lattices(
         print(len(all_matching_lattices))
 
         tmp = all_matching_lattices
+
         all_matching_lattices = [tmp[i] for i in keep_sys_ind_list]
+
         print(len(all_matching_lattices))
-
-        # ##########################################################
-        all_matching_lattices_1 = copy.deepcopy(all_matching_lattices)
-
-        sorted_mismatch_list = sorted(
-            all_matching_lattices_1,
-            key=itemgetter('min_mismatch'),
-            reverse=False)
-        mismatch_ordered_indices = [i["index"] for i in sorted_mismatch_list]
-
-        sorted_area_list = sorted(
-            all_matching_lattices_1,
-            key=itemgetter('min_area'),
-            reverse=False)
-        area_ordered_indices = [i["index"] for i in sorted_area_list]
-
-        # Only interested in the Nth * factor (N=max_return_structures) systems
-        # in terms of strain and min_area. We then take these two lists
-        # (of systems that have low strain and area) and we find the union of
-        # them The fudge factor is just a heuristic, since the number of
-        # entries after taking the union will be < max_return_structures
-
-        systems_to_keep_indices = list(set(
-            mismatch_ordered_indices[0:int(max_return_structures * 1.5)]
-                ) & set(
-            area_ordered_indices[0:int(max_return_structures * 1.5)])
-            )
-
-        print("")
-        print("tmptmptmp")
-        print(len(all_matching_lattices))
-        out = [all_matching_lattices[i] for i in systems_to_keep_indices]
-        print(len(out))
+        #__|
 
         all_matching_lattices = out
         #__|
     #__|
-
 
     print("Creating heterointerfaces...")
     sub_mat2d_list_tmp = []
@@ -428,7 +452,7 @@ def get_aligned_lattices(
     #__| **********************************************************************
 
 
-# #############################################################################
+# ####################################g#########################################
 #  ██████  ███████ ████████
 # ██       ██         ██
 # ██   ███ █████      ██
